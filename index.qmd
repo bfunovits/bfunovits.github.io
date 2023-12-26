@@ -1,11 +1,9 @@
 ---
-title: "website"
+title: "About"
 ---
 
-# Intro
-
 Welcome to my website!
-You will find information on my professional and [academic background](academic_background.html).
+You will find information on my professional and [academic background](academia.html).
 I have a strong background in quantitative risk analysis, statistics, and programming, see my [CV](cv.html) and my [github profile](https://github.com/bfunovits).
 
 Recently, I have made two long-term programming projects on multivariate time series analysis public on github:

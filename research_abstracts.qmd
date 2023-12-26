@@ -1,5 +1,5 @@
 ---
-title: "research_abstracts"
+title: "Abstracts"
 ---
 
 Working Papers
