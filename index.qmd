@@ -1,6 +1,16 @@
 ---
 title: "About"
+fig-align: right
+fig-width: 50
 ---
+
+::: {#fig-bf}
+#| fig-align: right
+#| fig-responsive: true
+#| fig-width: 20%
+
+![](images/dark_pic.jpg){align="center"}
+:::
 
 Welcome to my website!
 You will find information on my professional and [academic background](academia.html).
@@ -19,7 +29,7 @@ I am working for [Zanders GmbH](https://zandersgroup.com/en/), Financial Institu
 Zanders is a leading international consultancy firm focused on treasury management, risk management and corporate finance.
 We are a trusted partner for many large multinationals and financial institutions (G- and D-SIBs), operating globally from offices in, e.g., the Netherlands, United Kingdom, Germany, Switzerland, and the United States.
 
-[Recent projects](link_to_recent_projects.html) and areas of expertise in the Swiss team comprise
+[Recent projects](projects_professional.html) and areas of expertise in the Swiss team comprise
 
 * ALM and IRRBB
 * Modelling non-maturing deposits
