@@ -43,7 +43,7 @@ Given mixed frequency data, it is interesting to ask the question whether it is 
 In linear RE models, I worked on characterizing the full solution set and on identifiability by constructing an analytical mapping from internal and external characteristics.
 
 
-Future Research
+## Future Research
 
 None.
 

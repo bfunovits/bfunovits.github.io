@@ -4,10 +4,15 @@ title: "Professional Projects"
 
 # Zanders
 
-Projects:
+## Projects
 
-Review and validation of IRRBB framework (interest rate measurement, non-maturing deposit modeling, replicating portfolio calibration, risk steering and limit framework) of Swiss D-SIB.Projects: Review and validation of IRRBB framework (interest rate measurement, non-maturing deposit modeling, replicating portfolio calibration, risk steering and limit framework) of Swiss D-SIB.
-Skills: Asset and Liability Management (ALM) · Quantitative Risk Analysis · Project Management · Software Development · Statistical Software
+Review and validation of [IRRBB framework](https://www.finma.ch/de/~/media/finma/dokumente/dokumentencenter/myfinma/rundschreiben/finma-rs-2019-02.pdf) of a Swiss D-SIB.
+The validation comprised 
+
+* interest rate risk measurement 
+* non-maturing deposit modeling, 
+* replicating portfolio calibration
+* risk steering and limit framework
 
 
 # UNIQA
