@@ -3,30 +3,34 @@ project:
 
 website:
   title: "Bernd Funovits"
-  sidebar:
-    style: "docked"
+  navbar:
     search: true
+    tools:
+      - icon: github
+        url: http://www.github.com/bfunovits
+  sidebar:
+    collapse-level: 1
+    style: "docked"
     contents:
-      - section: "Professional Projects"
-        contents:
-          - projects_professional.qmd
+      - text: "About"
+        file: index.qmd
+      - projects_professional.qmd
       - section: "CV"
+        file: cv_index.qmd
         contents:
-          - cv_index.qmd
           - cv_long.qmd
           - cv_latex.qmd
       - section: "Academia"
+        file: academia.qmd
         contents:
-          - academia.qmd
           - research_abstracts.qmd
-      - section: "Research Papers"
-        contents:
-          - research_papers.qmd
-          - research_papers_blaschke.qmd
-          - research_papers_gmr.qmd
-      - section: "Personal Projects"
-        contents:
-          - projects_misc.qmd
+          - section: "Research Papers"
+            file: research_papers.qmd
+            contents:
+              - research_papers_blaschke.qmd
+              - research_papers_gmr.qmd
+      - text: "Personal Projects"
+        file: projects_misc.qmd
 
 format:
   html:
