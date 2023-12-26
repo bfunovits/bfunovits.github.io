@@ -1,0 +1,36 @@
+project:
+  type: website
+
+website:
+  title: "Bernd Funovits"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - file: index.qmd
+        text: Home
+      - file: academia.qmd
+        text: "Academia"
+      - file: research_abstracts.qmd
+        text: "Research"
+      - file: research_papers.qmd
+        text: "Research Papers"
+      - file: research_papers_blaschke.qmd
+        text: "All-Pass Functions for Root Mirroring"
+      - file: research_papers_gmr.qmd
+        text: "Comment on GMR"
+      - file: projects_professional.qmd
+        text: "Professional Projects"
+      - file: projects_misc.qmd
+        text: "Personal Projects"
+
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

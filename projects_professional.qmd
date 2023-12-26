@@ -1,0 +1,27 @@
+---
+title: "Professional Projects"
+---
+
+# Zanders
+
+Projects:
+
+Review and validation of IRRBB framework (interest rate measurement, non-maturing deposit modeling, replicating portfolio calibration, risk steering and limit framework) of Swiss D-SIB.Projects: Review and validation of IRRBB framework (interest rate measurement, non-maturing deposit modeling, replicating portfolio calibration, risk steering and limit framework) of Swiss D-SIB.
+Skills: Asset and Liability Management (ALM) · Quantitative Risk Analysis · Project Management · Software Development · Statistical Software
+
+
+# UNIQA
+
+Lead for remediation model changes of the Partial Internal Model (PIM) and point of contact for FMA and OeNB.
+
+Lead in development of UNIQA's R package for interest rate, credit and market risk modeling, including risk dashboard creation and automatisation of (monthly, quarterly, sensitivity) risk calculations and reports in Rmarkdown/quarto.
+
+Quarterly reporting to the Internal Model Committee (IMCO).
+
+# QuantiCo and Mantigma
+
+Energy forecasting
+
+Outlier detection
+
+Account balance forecasting

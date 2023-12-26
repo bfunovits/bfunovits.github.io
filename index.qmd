@@ -1,0 +1,35 @@
+---
+title: "website"
+---
+
+# Intro
+
+Welcome to my website!
+You will find information on my professional and [academic background](academic_background.html).
+I have a strong background in quantitative risk analysis, statistics, and programming, see my [CV](cv.html) and my [github profile](https://github.com/bfunovits).
+
+Recently, I have made two long-term programming projects on multivariate time series analysis public on github:
+
+* [Rational Matrices](https://github.com/bfunovits/rationalmatrices) including [documentation and examples](https://bfunovits.github.io/rationalmatrices/)
+    * Collects classes, methods and tools for creating and manipulating rational matrices, i.e. matrices whose entries are rational functions. 
+* [Rational Linear Dynamic Models](https://github.com/bfunovits/RLDM) including [documentation and examples](https://bfunovits.github.io/RLDM/)
+    * Provides models for stationary processes with a rational spectral density and methods for their estimation.
+
+# Zanders
+
+I am working for [Zanders GmbH](https://zandersgroup.com/en/), Financial Institutions, Zürich.
+Zanders is a leading international consultancy firm focused on treasury management, risk management and corporate finance.
+We are a trusted partner for many large multinationals and financial institutions (G- and D-SIBs), operating globally from offices in, e.g., the Netherlands, United Kingdom, Germany, Switzerland, and the United States.
+
+[Recent projects](link_to_recent_projects.html) and areas of expertise in the Swiss team comprise
+
+* ALM and IRRBB
+* Modelling non-maturing deposits
+* Credit Risk
+* Capital modelling
+
+Feel free to contact me if you are looking for new challenges in the area of quantitative risk analysis (especially if you have taken one of my lectures in Helsinki or Dortmund).
+We are always looking for new colleagues, in particular in the Frankfurt office.
+
+
+

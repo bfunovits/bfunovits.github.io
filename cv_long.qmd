@@ -1,0 +1,78 @@
+---
+title: "CV Long Form"
+---
+
+
+# Positions in Finance Industry
+
+## Zanders
+
+## UNIQA
+
+## Credit Suisse
+
+
+# Start-Up Environment
+
+## QuantiCo KG
+
+## Mantigma GmbH
+
+
+# Academic Positions
+
+
+
+## University of Helsinki
+
+University of Helsinki, 3-years Research Grant
+
+Identifiability and Estimation in Structural Vector Autoregressive Moving Average Time Series (SVARMA) Models
+Funding granted for the years 2018-2020 (150,000 € + funding of own position)
+
+Research Objectives
+I plan to develop SVARMA models driven by non-Gaussian and independent shocks that use only data to identify the economic shocks driving the model and that allow for the informational structure of fiscal policy models. 
+I plan to develop stochastically singular models. Their applications are twofold: On the one hand these models are important for capturing a large number of variables (connected to the “big data” paradigm) and on the other hand they serve as benchmark models for stochastically singular DSGE models. 
+I plan to improve on existing solution methods for DSGE models as well as to improve on methods for assessing their fit to observed data. 
+Implementation
+All new contributions to methodology will be implemented in R, Python, or Julia and made available through downloadable packages.
+
+People
+Juho Koistinen started his PhD in September 2018.
+
+## Vienna University of Technology
+
+OeNB Anniversary Fund
+
+Identifiability and Estimation in Structural Singular Autoregressive Models
+Funding granted: 125,000€.
+
+Research Objectives
+
+We intend to contribute to the area of theoretical time series econometrics by obtaining identifiability results, and deriving and analyzing consistent and asymptotically normal estimators for structural singular VAR models. 
+We provide software for applied researchers by developing, implementing, and documenting our estimation algorithms in the open-source statistical software R and making them openly available. 
+The methods to be developed are expected to not only have an impact on macroeconometrics (and thus in economic policy analysis) and financial econometrics, but they are also promising for short-term forecasting. 
+
+Anniversary Fund of the Austrian Central Bank
+
+For more information on the funding institution see ÖNB.
+
+
+
+## Technical University Dortmund
+
+
+
+# Education
+
+## Aufsichtsrat Next Generation
+
+## CFA
+
+## PhD in Economics
+
+## Ecole Central Paris
+
+## Vienna University of Technology
+
+

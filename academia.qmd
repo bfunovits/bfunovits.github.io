@@ -1,0 +1,81 @@
+---
+title: "Academic Background and Research"
+---
+
+# Academic Background
+
+My academic background is in mathematics,  statistics, and economics. 
+I obtained degrees from the Vienna University of Technology (Dipl.-Ing. in 2009, with distinction, thesis supervised by Manfred Deistler) and "ingénieur généraliste" at Ecole Centrale Paris (Promotion 2010, thesis supervised by Frédéric Abergel).
+After an internship in the Global Arbitrage Trading department at Credit Suisse in London, I started my PhD in mathematics at the Vienna University of Technology and changed after one year to the economics department at the University of Vienna, where I passed my PhD under supervision of Manfred Deistler and Benedikt M. Pötscher (May 2015, with distinction). 
+During my PhD, I could further my international network through extended research visits at the Australian National University in Canberra (November 2012 and November 2013, invited by Brian D. O. Anderson) and University of Pennsylvania (January until May 2014, invited by Frank Schorfheide). 
+
+I am currently working (as principal investigator) on my project funded by from the Fund of the University of Helsinki.  
+Previously, I have acted as principal investigator of a project funded by the Jubilee Fund of the Austrian National Bank at TU Wien. 
+Here,  you can find more information on these projects. 
+
+From April 2018 to March 2019, I acted as substitute professor for Martin Wagner's W3 professorship at the TU Dortmund.
+Previously, I conducted research on Nonlinear and Non-Gaussian Time Series Models with Macroeconomic and Financial Applications, see also here,  as postdoctoral researcher in Markku Lanne's and Pentti Saikkonen's research group at the University of Helsinki.
+
+# Research Interests
+
+I focus on data-driven models to characterize and identify structural economic shocks without relying on (possibly implausible) restrictions derived from economic theory, as is the case in Dynamic Stochastic General Equilibrium (DSGE) models. 
+This research program comprises the identification of the static shock transmission matrix using higher moments (as well as independence and non-Gaussianity), treated in my job market paper “Structural identification of VARMA models using non-Gaussianity and independence”, as well as the identification of determinantal root location, treated in my working paper “Semi-Parametric Estimation of Multivariate Possibly Non-Causal and Possibly Non-Invertible Time Series Models”, presented at the NBER-NSF Time Series meeting 2019. Both identifiability problems cannot be solved with second moments only.
+
+Moreover, I am developing parametrizations of multivariate stationary stochastic processes with singular rational spectral density. 
+In a (submitted) working paper entitled “Identifiability of Structural Singular Vector Autoregressive Models” (joint with Alexander Braumann), we analyze over-, exact, and under-identification of singular VAR models involving structural restrictions. 
+In an early working paper entitled “Realization and Estimation of Singular Rational Spectral Factors with Right-Matrix Fraction Descriptions” (joint with Juho Koistinen), we developed a flexible parametrization which is expected to be more convenient for estimation purposes than VAR systems.
+
+Last, I am finishing my work on identifiability analysis of RE models. 
+This project has two goals: 
+
+* I want to connect recent work on characterization of solutions of RE models with the workhorse RE model developed by C.A. Sims. 
+  It turns out that the martingale difference approach and the Wiener-Hopf factorization are closely connected to Sims' method. 
+* Second, the analysis with the martingale difference approach and the Wiener-Hopf factorization lends itself to the analysis of the mapping from internal and external characteristics, i.e. to the analysis of solutions of RE models (including indeterminate equilibria). 
+
+## Past Research
+
+Early projects (without innovation) were concerned with cointegration analysis (project at the end of BSc. equivalent at TU Wien), factor GARCH models with applications to financial time series (project at Ecole Centrale Paris), and dynamic principal component analysis, i.e. the frequency domain equaivalent of (static) principal component analysis, (project at the end of MSc. equivalent at TU Wien).
+
+My PhD thesis comprises contributions on singular vector autoregressive (VAR) models, identifiability from mixed frequency data, as well as solution sets and identifiability of rational expectations (RE) models. 
+Solutions of singular VAR models are stationary multivariate processes with innovation covariance matrix of reduced rank. 
+They are the essential building block of generalized dynamic factor models. 
+Given mixed frequency data, it is interesting to ask the question whether it is possible to identify an underlying model which generates data at the highest frequency. 
+In linear RE models, I worked on characterizing the full solution set and on identifiability by constructing an analytical mapping from internal and external characteristics.
+
+
+Future Research
+
+None.
+
+If you are working with one of my R packages or build on my work in any other way, I would be happy to hear from you.
+Especially, I am happy to provide feedback or help out with feature requests regarding [non-invertible VARMA models]().
+
+<!-- In addition to finishing the projects mentioned above, I have two funding applications under review.  -->
+
+<!-- The first one is a joint application with three other postdoctoral researchers or assistant professors in which we plan to work on methods for analyzing Big Dependent Data.  -->
+<!-- In particular, we want to investigate methods for targeted linear and non-linear dimension reduction. Important data structures to be analyzed include mixed-type variables, where some components might be discrete-valued.  -->
+
+<!-- The second one deals with a identifiability of structural econometric models and their evaluation by data-driven methods.  -->
+<!-- It is a continuation of the research projects at TU Wien and University of Helsinki.  -->
+<!-- Higher order cumulant spectra will be used to characterise all (non-invertible, non-causal) spectral factors of a given spectral density.  -->
+<!-- Moreover, it is planned to develop new estimators, tests, and bootstrap procedures building on the insights generated from higher order cumulant spectra of stationary stochastic processes.  -->
+<!-- An important area for which we have initial plans for a funding application is modeling sparsity in multivariate time series models through networks. -->
+
+## Updates
+
+8 December 2020: All-Pass Functions for Mirroring Pairs of Complex-Conjugated Roots of Rational Matrix Functions (with Wolfgang Scherrer) submitted new version: https://arxiv.org/abs/2010.01598 
+
+26 November 2020: Identifiability of Singular Structural VAR Models (with Alexander Braumann) accepted at JTSA: doi: 10.1111/jtsa.12576 
+
+
+
+
+
+
+# Links
+
+
+arxiv.org profile ,ORCID-ID, Google Scholar Profile
+
+
+

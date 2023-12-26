@@ -1,0 +1,181 @@
+---
+title: "CV LaTeX"
+---
+
+
+# Work Experience
+
+## Manager, Financial Institutions, Zanders GmbH, Zurich, Switzerland
+
+
+##  Market Risk Modeling Expert, UNIQA Insurance Group, Vienna, Austria
+
+Apr 2021 - Jun 2023
+
+* Lead for remediation model changes in the Partial Internal Model (PIM) for market risk; 
+  including responsibility for reports and presentation to Financial Market Supervision in Austria (FMA) and the Austrian National Bank (OeNB). 
+  * Major model changes in (Credit-Metrics like) migration model as well as spread curve model 
+  * Several minor model changes related to portfolio composition
+	* Successfully resolving remediation issues in PIM made Full Internal Model (FIM) application possible 
+* Lead in development of UNIQA's R package for market risk modeling; including risk dasboard creation in shiny and automatisation of monthly, quarterly, sensitivity and several other risk calculations and reports (comparison of Solvency Capital Requirements (SCR) and sensitivities)
+* Responsible for Level 2 and Level 3 documentation, as well as internal technical documentation, on PIM
+*	Quarterly reporting and presentation to the Internal Model Committee (IMCO) 
+
+## CEO, Advisory services in the fields of statistics and applied mathematics, QuantiCo KG, Vienna, Austria
+
+Jan 16 - Dec 19
+
+* Forecasting of aggregate electricity load demand of 10,000 industry customers for a large German utilities company using dynamic factor models
+* Software development for outlier detection to flag suspicious leasing contracts for a German automotive manufacturer
+
+## Statistical consulting and software development, Mantigma GmbH, Vienna, Austria
+
+Jun 15 - Dec 16
+
+* Account balance prediction for customers of Erste Group
+
+## Analyst, Global Arbitrage Trading division (proprietary trading), Credit Suisse, London, UK
+
+Okt 09 - Apr 10
+
+* Support for the Long-Short Equity investment team
+
+# Academic Positions
+
+## Principal Investigator, University of Helsinki, Faculty of Social Sciences, Discipline of Economics, Helsinki, Finland
+
+Jan 18 - Dec 20
+
+* Funded by Research Foundation of University of Helsinki \textbf{(150,000 EUR + own position)}
+* Development of macroeconomic and financial time series models with informational asymmetries between outside observers and economic agents (possibly non-invertible SVARMA models).
+  Important model class in macroeconometrics (economic policy analysis, evaluation of Dynamic Stochastic General Equilibrium models) and financial econometrics. 
+  Development, implementation, and documentation of estimation algorithms in R package.
+* Supervision of PhD thesis.
+
+## W3 Professorship (Chair for Econometrics and Statistics), TU Dortmund, Faculty of Statistics, Dortmund, Germany
+
+Apr 18 - Mar 19
+
+* Teaching BA (introductory statistics lecture for 1,200 students), MSc, and PhD level classes in statistics and time series analysis.
+
+## Principal Investigator, TU Vienna, Institute of Mathematical Methods in Economics, Vienna, Austria
+
+Mar 18 - Dec 19
+
+* Funded by the OeNB Anniversary Fund of the Austrian National Bank \textbf{(125,000 EUR)}
+* Contributions to theoretical time series econometrics by obtaining identifiability results, and deriving and analyzing consistent and asymptotically normal estimators for structural singular VAR models (i.e. structural factor models). 
+  Development, implementation, and documentation of estimation algorithms in R package.
+* Supervision of PhD thesis and MSc thesis (forecasting with factor models).
+
+## Postdoctoral researcher, University of Helsinki, Faculty of Social Sciences, Discipline of Economics, Helsinki, Finland
+
+May 16 - Dec 17
+
+* Development of macroeconomic and financial time series models with informational asymmetries between outside observers and economic agents (possibly non-invertible SVARMA models).
+  Important model class in macroeconometrics (economic policy analysis, evaluation of Dynamic Stochastic General Equilibrium models) and financial econometrics. 
+  Development, implementation, and documentation of estimation algorithms in R package.
+  
+## Postdoctoral researcher, TU Vienna, Institute of Statistics and Mathematical Methods in Economics, Vienna, Austria
+
+Sep 15 - Jan 16
+
+* Development of macroeconomic and financial time series models with informational asymmetries between outside observers and economic agents (possibly non-invertible SVARMA models).
+  Important model class in macroeconometrics (economic policy analysis, evaluation of Dynamic Stochastic General Equilibrium models) and financial econometrics. 
+  Development, implementation, and documentation of estimation algorithms in R package.
+
+# Achievements
+
+* \textbf{Principal Investigator} of the project \href{https://sites.google.com/site/berndfunovits/projects/oenb-anniversary-fund}{"Identifiability and Estimation of Structural VARMA Models"}, financed by the Research Foundation of the University of Helsinki \textbf{(150,000 EUR + own position)}
+* \textbf{Principal Investigator} of the project \href{https://sites.google.com/site/berndfunovits/projects/university-of-helsinki-3-years-research-grant}{"Identifiability and Estimation in Structural Singular Autoregressive Models"}, funded by the OeNB Anniversary Fund of the Austrian National Bank \textbf{(125,000 EUR)}
+* 6th \textbf{Lindau Nobel Laureate Meeting} on Economic Studies, August 2017
+
+
+
+# Education
+
+## Ph.D. in Econometrics, \textbf{passed with distinction}, University of Vienna, Vienna Graduate School of Economics, Vienna, Austria
+
+Oct 11 - Apr 15
+
+* Advisors: \href{http://eos.tuwien.ac.at/mitarbeiterinnen/deistler_manfred/}{Manfred Deistler} and  \href{http://www.univie.ac.at/seam/cgi-bin/hp/seam.cgi?;poetscher;cv}{Benedikt M. Pötscher}
+* Topics: Multivariate time series analysis (spectral representations, rational expectations models, identifiability issues, factor models, mixed frequency data, Kalman filtering, state space models) and its applications to economic theory
+* Research visits: University of Pennsylvania (Department of Economics, 6 months, invited by Frank Schorfheide) and Australian National University (Research School of Information Sciences and Engineering, twice for one month, invited by B.D.O Anderson, author of \textit{Optimal Filtering})
+
+## Visitng Researcher student, University of Pennsylvania, Department of Economics, Philadelphia, USA
+
+## Visiting Researcher, Research School of Information Sciences and Engineering, Australian National University, Canberra, Australia
+
+## Ingénieur centralien, \textbf{passed with distinction}, Ecole Centrale Paris, Paris, France
+
+Sep 07 - Jun 09
+
+* Specialisation in financial mathematics.
+* Final project: Analysis of financial time series with factor-GARCH models under supervision of \href{http://fiquant.mas.ecp.fr/people/}{Frédéric Abergel}
+
+## Diplom-Ingenieur, \textbf{passed with distinction}, Vienna University of Technology, Vienna, Austria
+
+* Technical Mathematics with a concentration in econometrics, \textbf{passed with distinction}.
+
+## Professional Certificates
+
+since Jun 18
+
+* Chartered Financial Analyst (CFA) \href{https://basno.com/c3zdcng0}{Charterholder}, passed Level III in 2015, \href{http://www.cfainstitute.org/}{CFA Institute}
+
+# IT and Languages
+
+## Languages
+
+* German: mother tongue
+* English: fluent (TOEFL-iBT score: 115/120 (Oct 2010))
+* French: fluent (C1-certificate of the Alliance Fran\c caise)
+* Spanish: basic knowledge
+* Finnish: very very basic knowledge
+
+## Programming Languages and IT
+
+* R, Python, Julia, MATLAB, C++, Git(-hub), HPC/SLURM: advanced knowledge; developed several R packages (e.g. \textbf{svarmawhf}: \href{github.com/bfunovits/svarmawhf}{github.com/bfunovits/svarmawhf}); fluent in tidyverse, data.table, shiny, Rcpp, as well as other commonly used packages; most projects are version controlled by git
+* SQL, PostgreSQL, Spark; Excel, PowerBI, MS Office: advanced knowledge
+
+# Academic Publications
+
+## Peer-reviewed articles
+
+* B. Funovits, A. Braumann: [Identifiability of Singular Structural VAR Systems](https://doi.org/10.1111/jtsa.12576), Journal of Time Series Analysis, Volume 42, Number 4, Pages 431-441, Nov 2020
+* B. Funovits: [The full set of solutions of linear rational expectations models](https://doi.org/10.1016/j.econlet.2017.09.021), **Economics Letters**, Volume 161, Dec 2017, Pages 47-51
+* B.D.O. Anderson, M. Deistler, E. Felsenstein, B. Funovits, L. Koelbl, M. Zamani: [Multivariate AR Systems and Mixed Frequency Data: g-Identifiability and Estimation](https://dx.doi.org/10.1017/S0266466615000043),  **Econometric Theory**, Aug 2016
+    * Since [Brian Anderson](https://en.wikipedia.org/wiki/Brian_Anderson_(electrical_engineer)) published an article with a co-author of [Paul Erdös](https://en.wikipedia.org/wiki/Paul_Erd%C5%91s), my [Erdös number](https://en.wikipedia.org/wiki/Erd%C5%91s_number) is 3.
+* B.D.O. Anderson , W. Chen, M. Deistler, M. Eichler, E. Felsenstein, B. Funovits, M. Zamani: [Identifiability of regular and singular multivariate autoregressive models from mixed frequency data](http://dx.doi.org/10.1109/CDC.2012.6426713), **Proceedings of 51st IEEE Conference on Decision and Control 2012**
+* M. Deistler, A. Filler, B. Funovits: [AR Systems and AR Processes: The Singular Case.](http://dx.doi.org/10.4310/CIS.2011.v11.n3.a2), **Communications in Information and Systems**, Vol 11, No. 3, pp. 225-236, 2011
+
+## Working Papers
+
+* B. Funovits: [Identifiability and Estimation of Possibly Non-Fundamental SVARMA Models](https://github.com/bfunovits/svarmawhf): The Normalised Canonical Wiener-Hopf Parametrisation" (**fifth** revision at Journal of Econometrics as of 23 Dec 2023)
+* W. Scherrer, B. Funovits: [All-Pass Functions for Mirroring Pairs of Complex-Conjugated Roots of Rational Matrix Functions](https://arxiv.org/abs/2010.01598)
+* B. Funovits: [Comment on GMR et al.](https://arxiv.org/abs/2010.02711)
+
+
+# Selection of Invited Talks and Conference Presentations
+
+* NBER Time Series Conference, Hong Kong, August 2019: ``Semi-Parametric Estimation of Multivariate Possibly Non-Causal and Possibly Non-Invertible Time Series Models''
+* Asian meeting of the \textbf{Econometric Society}, Xiamen (China), June 2019: ``Semi-Parametric Estimation of Multivariate Possibly Non-Causal and Possibly Non-Invertible Time Series Models''
+* Invited talk at TU Braunschweig, December 2017: ``Multivariate All-Pass Time Series Models: Modelling and Estimation Strategies''
+* North American Summer Meeting of the \textbf{Econometric Society}, WUSTL Juni 2017: ``Identification and Estimation of Structural VARMA Models with Independent and Non-Gaussian Inputs''
+* Invited talk at \href{https://www.statistik.tu-dortmund.de/}{TU Dortmund}, June 2017: ``Identification and Estimation of Structural VARMA Models with Independent and Non-Gaussian Inputs''
+
+
+# Extra-Curricular Activities
+
+## Aufsichtsrat Next Generation
+
+Two-semester course held by [Kunz Wallentin Rechtsanwälte GmbH](https://www.kunzwallentin.at/) aiming to prepare young professionals for serving on a supervisory board.
+Special attention is given to the opportunities and challenges faced by a young supervisory board member, taking into account the current developments in this field.
+The relevant content is not only covered theoretically but also through interactive role-playing, short presentations, and exchange with renowned speakers.
+
+## Forum Alpbach
+
+Several participations in the European Forum Alpbach between 2011 and 2016 ([www.alpbach.org](www.alpbach.org)), member of board of ``Club Alpbach Burgenland'' (2015-2016)
+
+## Academic Forum for Foreign Affairs
+
+Participation and co-organization of the *Global Advancement Program (GAP)* between 2011 and 2013 ([www.afa.at](www.afa.at))
