@@ -15,11 +15,6 @@ website:
       - text: "About"
         file: index.qmd
       - projects_professional.qmd
-      - section: "CV"
-        file: cv_index.qmd
-        contents:
-          - cv_long.qmd
-          - cv_latex.qmd
       - section: "Academia"
         file: academia.qmd
         contents:
@@ -29,8 +24,15 @@ website:
             contents:
               - research_papers_blaschke.qmd
               - research_papers_gmr.qmd
-      - text: "Personal Projects"
-        file: projects_misc.qmd
+      - text: "CV"
+        file: cv_long.qmd
+      # - section: "CV"
+      #   file: cv_index.qmd
+      #   contents:
+      #     - cv_long.qmd
+      #     - cv_latex.qmd
+      # - text: "Personal Projects"
+        # file: projects_misc.qmd
 
 format:
   html:

@@ -7,72 +7,217 @@ title: "CV Long Form"
 
 ## Zanders
 
-## UNIQA
+* Manager in Risk Advisory Group (RAG) in Zurich, Switzerland
+* Since September 2023
+
+[Projects](projects_professional.html)
+
+##  UNIQA Insurance Group
+
+* Market Risk Modeling Expert in Vienna, Austria
+* April 2021 - June 2023
+
+**Responsibilites:**
+
+* Lead for remediation model changes in the **Partial Internal Model (PIM)** for market risk; 
+  including responsibility for reports and presentation to **Financial Market Supervision in Austria (FMA)** and the **Austrian National Bank (OeNB)**. 
+  * Major model changes in (Credit-Metrics like) migration model and spread curve model 
+  * Several minor model changes related to portfolio composition
+	* Successfully resolving remediation issues in PIM made Full Internal Model (FIM) application possible 
+* Lead in development of UNIQA's **R package** for market risk modeling
+    * including risk **dasboard** creation in shiny and **automatisation** of monthly, quarterly, sensitivity and several other risk calculations and reports (comparison of Solvency Capital Requirements (SCR) and sensitivities)
+* Responsible for Level 2 and Level 3 documentation, as well as internal technical documentation, on PIM
+*	Quarterly reporting and presentation to the **Internal Model Committee (IMCO)**
 
 ## Credit Suisse
 
+* Analyst, Global Arbitrage Trading division (proprietary trading) in London, UK
+* October 2009 - April 2010
 
-# Start-Up Environment
+**Responsibilities:**
+
+* Quantitative support for the Long-Short Equity investment team
+
+
+# Positions in Start-Up Environment
 
 ## QuantiCo KG
 
+* CEO, Advisory services in the fields of statistics and applied mathematics in Vienna, Austria
+* January 16 - December 19
+
+**Projects:**
+
+* Forecasting of aggregate electricity load demand of 10,000 industry customers for a large German utilities company using dynamic factor models
+* Software development for outlier detection to flag suspicious leasing contracts for a German automotive manufacturer
+
 ## Mantigma GmbH
 
+* Statistical consulting and software development in Vienna, Austria
+* June 14 - December 16
 
-# Academic Positions
+**Projects:**
+
+* Account balance prediction of retail customers for a large Austrian bank
 
 
+
+# Positions in Academia
 
 ## University of Helsinki
 
-University of Helsinki, 3-years Research Grant
+### Principal Investigator
 
-Identifiability and Estimation in Structural Vector Autoregressive Moving Average Time Series (SVARMA) Models
-Funding granted for the years 2018-2020 (150,000 € + funding of own position)
+* Faculty of Social Sciences, Discipline of Economics in Helsinki, Finland
+* January 2018 - December 2020
+* Funded by Research Foundation of University of Helsinki: **150,000 EUR + own position**
+* Supervision of PhD thesis
 
-Research Objectives
-I plan to develop SVARMA models driven by non-Gaussian and independent shocks that use only data to identify the economic shocks driving the model and that allow for the informational structure of fiscal policy models. 
-I plan to develop stochastically singular models. Their applications are twofold: On the one hand these models are important for capturing a large number of variables (connected to the “big data” paradigm) and on the other hand they serve as benchmark models for stochastically singular DSGE models. 
-I plan to improve on existing solution methods for DSGE models as well as to improve on methods for assessing their fit to observed data. 
-Implementation
-All new contributions to methodology will be implemented in R, Python, or Julia and made available through downloadable packages.
+**Project: Macroeconomic and financial time series models with informational asymmetries between outside observers and economic agents**
 
-People
-Juho Koistinen started his PhD in September 2018.
+* Development of SVARMA models driven by non-Gaussian and independent shocks that use only data to identify the economic shocks driving the model and that allow for the informational structure of fiscal policy models.
+* Development of stochastically singular models. Their applications are twofold: On the one hand these models are important for capturing a large number of variables (connected to the “big data” paradigm) and on the other hand they serve as benchmark models for stochastically singular DSGE models.
+* Improving on existing solution methods for DSGE models as well as to improve on methods for assessing their fit to observed data.
+* Implementation: All new contributions to methodology will be implemented in R, Python, or Julia and made available as downloadable packages.
 
-## Vienna University of Technology
 
-OeNB Anniversary Fund
+<!-- I plan to develop SVARMA models driven by non-Gaussian and independent shocks that use only data to identify the economic shocks driving the model and that allow for the informational structure of fiscal policy models.  -->
+<!-- I plan to develop stochastically singular models. Their applications are twofold: On the one hand these models are important for capturing a large number of variables (connected to the “big data” paradigm) and on the other hand they serve as benchmark models for stochastically singular DSGE models.  -->
+<!-- I plan to improve on existing solution methods for DSGE models as well as to improve on methods for assessing their fit to observed data.  -->
+<!-- Implementation -->
+<!-- All new contributions to methodology will be implemented in R, Python, or Julia and made available through downloadable packages. -->
 
-Identifiability and Estimation in Structural Singular Autoregressive Models
-Funding granted: 125,000€.
 
-Research Objectives
 
-We intend to contribute to the area of theoretical time series econometrics by obtaining identifiability results, and deriving and analyzing consistent and asymptotically normal estimators for structural singular VAR models. 
+<!-- * Development of macroeconomic and financial time series models with informational asymmetries between outside observers and economic agents (possibly non-invertible SVARMA models). -->
+<!--   Important model class in macroeconometrics (economic policy analysis, evaluation of Dynamic Stochastic General Equilibrium models) and financial econometrics.  -->
+<!--   Development, implementation, and documentation of estimation algorithms in R package. -->
+
+<!-- University of Helsinki, 3-years Research Grant -->
+
+<!-- Identifiability and Estimation in Structural Vector Autoregressive Moving Average Time Series (SVARMA) Models -->
+<!-- Funding granted for the years 2018-2020 (150,000 € + funding of own position) -->
+
+<!-- Research Objectives -->
+
+<!-- People -->
+<!-- Juho Koistinen started his PhD in September 2018. -->
+
+
+### Postdoctoral researcher
+
+* University of Helsinki, Faculty of Social Sciences, Discipline of Economics, Helsinki, Finland
+* May 16 - December 17
+
+<!-- * Development of macroeconomic and financial time series models with informational asymmetries between outside observers and economic agents  -->
+
+
+## TU Dortmund
+
+* **W3 Professorship** (Chair for Econometrics and Statistics), TU Dortmund, Faculty of Statistics, Dortmund, Germany
+* April 18 - March 19
+* Teaching BA (introductory statistics lecture for 1,200 students), MSc, and PhD level classes in statistics and time series analysis.
+
+## TU Vienna
+
+### Principal Investigator
+
+* Institute of Mathematical Methods in Economics, Vienna, Austria
+* March 18 - December 19
+* Funded by *"Anniversary Fund of the Austrian National Bank (OeNB)"*: **125,000 EUR**
+* Supervision of PhD thesis and MSc thesis (forecasting with factor models).
+
+**Research Objectives:**
+
+We intend to contribute to the area of theoretical time series econometrics by obtaining identifiability results, and deriving and analyzing consistent and asymptotically normal estimators for structural singular VAR models (i.e. structural factor models). 
 We provide software for applied researchers by developing, implementing, and documenting our estimation algorithms in the open-source statistical software R and making them openly available. 
 The methods to be developed are expected to not only have an impact on macroeconometrics (and thus in economic policy analysis) and financial econometrics, but they are also promising for short-term forecasting. 
 
-Anniversary Fund of the Austrian Central Bank
-
-For more information on the funding institution see ÖNB.
 
 
+### Postdoctoral researcher
 
-## Technical University Dortmund
+* Institute of Statistics and Mathematical Methods in Economics, Vienna, Austria
+* September 15 - January 16
 
-
+<!-- * Development of macroeconomic and financial time series models with informational asymmetries between outside observers and economic agents (possibly non-invertible SVARMA models). -->
+<!--   Important model class in macroeconometrics (economic policy analysis, evaluation of Dynamic Stochastic General Equilibrium models) and financial econometrics.  -->
+<!--   Development, implementation, and documentation of estimation algorithms in R package. -->
 
 # Education
 
-## Aufsichtsrat Next Generation
+## Professional Certificates
 
-## CFA
+### Aufsichtsrat Next Generation
 
-## PhD in Economics
+Two-semester course held by [Kunz Wallentin Rechtsanwälte GmbH](https://www.kunzwallentin.at/) aiming to prepare young professionals for serving on **supervisory boards**.
+Special attention is given to the opportunities and challenges faced by a young supervisory board member, taking into account the current developments in this field.
+The relevant content is not only covered theoretically but also through interactive role-playing, short presentations, and exchange with renowned speakers.
 
-## Ecole Central Paris
+### Chartered Financial Analyst (CFA)
 
-## Vienna University of Technology
+* [Charter holder](https://basno.com/c3zdcng0) since since Jun 18
+* passed Level III in 2015
+
+## PhD in Econometrics
+
+* **passed with distinction** at University of Vienna, Vienna Graduate School of Economics, Vienna, Austria
+* October 11 - April 15
+* **Topics:** Multivariate time series analysis (spectral representations, rational expectations models, identifiability issues, factor models, mixed frequency data, Kalman filtering, state space models) and its applications to economic theory
+* **Advisors:** [Manfred Deistler](http://eos.tuwien.ac.at/mitarbeiterinnen/deistler_manfred/) and [Benedikt Pötscher](http://www.univie.ac.at/seam/cgi-bin/hp/seam.cgi?;poetscher;cv)
+* **Research visits:** 
+    * University of Pennsylvania (Department of Economics, 6 months, invited by Frank Schorfheide) 
+    * Australian National University (Research School of Information Sciences and Engineering, twice for one month, invited by B.D.O Anderson, author of *"Optimal Filtering"*)
 
 
+## Ingénieur centralien
+
+* 3 year degree, Ecole Centrale Paris (in Châtenay-Malabry, France)
+* Promotion 2010 (on campus from September 2007 - June 2009)
+* Specialisation in **financial mathematics**
+    * **Final project:** Analysis of financial time series with factor-GARCH models under supervision of [Frédéric Abergel](http://fiquant.mas.ecp.fr/people/)
+
+## Diplom-Ingenieur, Vienna University of Technology
+
+* 5 year degree, Vienna, Austria
+* Technical Mathematics with a concentration in econometrics **passed with distinction**
+
+
+# IT and Languages
+
+## Languages
+
+* **German**: mother tongue
+* **English**: fluent (TOEFL-iBT score: 115/120 (Oct 2010))
+* **French**: fluent (C1-certificate of the Alliance Fran\c caise)
+* **Spanish**: basic knowledge
+* **Finnish**: very very basic knowledge
+
+## Programming 
+
+* R, Python, Julia, MATLAB, C++, Git(-hub), HPC/SLURM: advanced knowledge; developed several R packages (e.g. [Rational Linear Dynamic Models](https://github.com/bfunovits/RLDM)); fluent in tidyverse, data.table, shiny, Rcpp, as well as other commonly used packages; most projects are version controlled by git
+* SQL, PostgreSQL, Spark; advanced knowledge
+* Excel, PowerBI, MS Office: advanced knowledge
+
+# Publications
+
+See [Publications](research_abstracts.html)
+
+# Selected Presentations
+
+* **NBER Time Series Conference**, Hong Kong, August 2019: *"Semi-Parametric Estimation of Multivariate Possibly Non-Causal and Possibly Non-Invertible Time Series Models"*
+* Asian meeting of the **Econometric Society**, Xiamen (China), June 2019: *"Semi-Parametric Estimation of Multivariate Possibly Non-Causal and Possibly Non-Invertible Time Series Models"*
+* **Invited talk** at TU Braunschweig, December 2017: *"Multivariate All-Pass Time Series Models: Modelling and Estimation Strategies"*
+* North American Summer Meeting of the **Econometric Society**, WUSTL Juni 2017: *"Identification and Estimation of Structural VARMA Models with Independent and Non-Gaussian Inputs"*
+* **Invited talk** at TU Dortmund, June 2017: *"Identification and Estimation of Structural VARMA Models with Independent and Non-Gaussian Inputs"*
+
+
+# Extra-Curricular Activities
+
+## Forum Alpbach
+
+Several participations in the European Forum Alpbach between 2011 and 2016 ([www.alpbach.org](www.alpbach.org)), member of board of ``Club Alpbach Burgenland'' (2015-2016)
+
+## Academic Forum for Foreign Affairs
+
+Participation and co-organization of the *Global Advancement Program (GAP)* between 2011 and 2013 ([www.afa.at](www.afa.at))

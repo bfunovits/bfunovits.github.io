@@ -4,7 +4,13 @@ title: "Professional Projects"
 
 # Zanders
 
-## Projects
+## Behavioural Modeling of Non-Maturing-Deposits (NMDs)
+
+Modeling behavioural maturity of non-maturing-deposits for a Swiss multinational private bank.
+We used vintage outflow analysis to determine a replicating portfolio.
+
+
+## Validation of the IRRBB framework of a Swiss D-SIB
 
 Review and validation of [IRRBB framework](https://www.finma.ch/de/~/media/finma/dokumente/dokumentencenter/myfinma/rundschreiben/finma-rs-2019-02.pdf) of a Swiss D-SIB.
 The validation comprised 
@@ -17,16 +23,13 @@ The validation comprised
 
 # UNIQA
 
-Lead for remediation model changes of the Partial Internal Model (PIM) and point of contact for FMA and OeNB.
-
-Lead in development of UNIQA's R package for interest rate, credit and market risk modeling, including risk dashboard creation and automatisation of (monthly, quarterly, sensitivity) risk calculations and reports in Rmarkdown/quarto.
-
-Quarterly reporting to the Internal Model Committee (IMCO).
+* Lead for remediation model changes of the **Partial Internal Model** (PIM) and point of contact for FMA and OeNB
+* Lead in development of UNIQA's R package for interest rate, credit and market risk modeling, including **risk dashboard** creation and **automatisation** of (monthly, quarterly, sensitivity) risk calculations and reports in Rmarkdown/quarto
+* Quarterly reporting to the **Internal Model Committee (IMCO)**
 
 # QuantiCo and Mantigma
 
-Energy forecasting
-
-Outlier detection
-
-Account balance forecasting
+* Energy demand forecasting for a large German utility provider
+    * We improved the forecast accuracy of the aggregate one-day-ahead forecast of energy demand of 10,000 corporate customers.
+* Outlier detection for a German bank to classify suspicious lease contracts
+* Account balance forecasting of retail customers for a large Austrian Bank

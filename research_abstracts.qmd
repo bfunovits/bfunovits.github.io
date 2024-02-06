@@ -2,72 +2,142 @@
 title: "Abstracts"
 ---
 
-Working Papers
 
-Identifiability of Structural Singular Vector Autoregressive Models (RR at JTSA)
-with Alexander Braumann
+# Published
 
-We generalize well-known results on structural identifiability of vector autoregressive models (VAR) to the case where the innovation covariance matrix has reduced rank. Structural singular VAR models appear, for example, as solutions of rational expectation models where the number of shocks is usually smaller than the number of endogenous variables, and as an essential building block in dynamic factor models. We show that order conditions for identifiability are misleading in the singular case and provide a rank condition for identifiability of the noise parameters. Since the Yule-Walker equations may have multiple solutions, we analyze the effect of restrictions on the system parameters on over- and underidentification in detail and provide easily verifiable conditions.
+**Identifiability and Estimation of Possibly Non-Invertible SVARMA Models: A New Parametrisation**
 
+* single-authored
+* **Journal of Econometrics** 2024, conditionally accepted for publication
 
-
-Identifiability and Estimation of Possibly Non-Invertible SVARMA Models: A New Parametrisation 
-This paper deals with parameterisation, identifiability, and maximum likelihood (ML) estimation of possibly non-invertible structural vector autoregressive moving average (SVARMA) models driven by independent and non-Gaussian shocks. We introduce a new parameterisation of the MA polynomial matrix based on the Wiener-Hopf factorisation (WHF) and show that the model is identified in this parametrisation for a generic set in the parameter space (when certain just-identifying restrictions are imposed). When the SVARMA model is driven by Gaussian errors, neither the static shock transmission matrix, nor the location of the determinantal zeros of the MA polynomial matrix can be identified without imposing further identifying restrictions on the parameters. We characterise the classes of observational equivalence with respect to second moment information at different stages of the modelling process. Subsequently, cross-sectional and temporal independence and non-Gaussianity of the shocks is used to solve these identifiability problems and identify the true root location of the MA polynomial matrix as well as the static shock transmission matrix (up to permutation and scaling).Typically imposed identifying restrictions on the shock transmission matrix as well as on the determinantal root location are made testable. Furthermore, we provide low level conditions for asymptotic normality of the ML estimator. The estimation procedure is illustrated with various examples from the economic literature and implemented as R-package.
-
-
-
-Multivariate All-Pass Time Series Models: Modelling and Estimation Strategies
-In this paper, we analyze multivariate rational all-pass filters. The poles of the determinant of all-pass matrix functions are the conjugated reciprocals of its roots. Multivariate all-pass filters are important for analyzing non-causal and non-invertible time series models as recently proposed in, e.g., Lanne and Saikkonen (2013). For i.i.d white noise input, all-pass models generate uncorrelated (white noise) processes; however, these processes are not independent in the non-Gaussian case. We propose a new estimation strategy for non-causal VAR systems.
-
-
-
-Stochastic Singularity and Indeterminacy in Linear Multivariate Rational Expectations Models
-This paper analyses the number of free parameters and solutions of the structural difference equation (SDE) obtained from a linear multivariate rational expectations model. It is shown that the number of free parameters depends on the structure of the zeros at zero of a certain matrix polynomial of the structural difference equation and the number of white noise shocks driving the rational expectations model. Moreover, the implications of requiring that some components of the endogenous variables be predetermined are analyzed. This makes a comparison of results on existence and uniqueness of solutions in the literature possible. Last, general restrictions on the parameters of the SDE are allowed. This analysis is the basis for identifiability analysis of determinate and indeterminate solutions of rational expectations (RE) models without assuming minimality.
+This article focuses on the parametrisation, identifiability, and (quasi-) maximum likelihood (QML) estimation of possibly non-invertible structural vector autoregressive moving average (SVARMA) models. 
+SVAR models are routinely adopted due to their well-known implementation strategy. 
+However, for various economic and statistical reasons, multivariate SVARMA settings are often more suitable. 
+These settings introduce complexity in the analysis, primarily due to the presence of the moving average (MA) polynomial. 
+We propose a novel representation of the MA polynomial matrix using the Wiener-Hopf factorization (WHF). 
+A significant advantage of the WHF is its ability to handle possible non-invertibility and thus models with informational asymmetry between economic agents and outside observers. 
+Since solutions of Dynamic Stochastic General Equilibrium (DSGE) models often involve this informational asymmetry, SVARMA models in WHF parametrisation can be considered data-driven alternatives to DSGE models and used for their evaluation.
+Furthermore, we provide low-level conditions for the asymptotic normality of the (Q)ML estimator and analytic expressions for the score and information matrix. 
+As application, we estimate the Blanchard and Quah model and compare our results with previous literature. 
+Importantly, we have implemented this novel method in a well-documented R-package, making it readily accessible for researchers and practitioners.
 
 
 
-The Right Parametrization for Opening the Blackbox: A Right Matrix Fraction Description of the Common Factors in GDFMs
-with Juho Koistinen
+**Identifiability of Structural Singular Vector Autoregressive Models**
 
-We consider estimation of stochastic processes with rational spectral densities that are rank deficient. Interest in these processes has emerged in relation to generalized dynamic factor models (GDFMs), which contain fewer economic shocks than endogenous variables. Our contribution is to propose a right matrix fraction description (MFD) realization of an (Nxq)-dimensional transfer function, where N>>q,  i.e. k( z ) e_t  =d( z ) c(z)^{-1}  e_t with d(z) and c(z) of dimensions (N x q) and  (q × q) which has two advantages over the usual two-step estimation procedure (where firstly a static transformation reduces to a static factor process with full rank covariance matrix and secondly a VAR model with fewer inputs than outputs is estimated): Its one-step nature makes it potentially more efficient and the same dynamics might be modeled with fewer parameters. The right MFD realization allows for more generality compared to the singular VAR since the covariance of the N -dimensional common factors \chi_t at lag 0 can be of rank r<N . Moreover, the rank of the spectral density of the common factors is q<r . We analyse the properties of the column Kronecker canonical form (which can be written as a minimal state space realization), and highlight its usefulness for modeling the common factor of GDFMs. Using the state space representation of the right MFD, estimation can be performed efficiently via Kalman filtering.
+* joint with Alexander Braumann
+* **Journal of Time Series Analysis** 2021, Volume 42, Issue 4, Pages 431-441
+* [https://onlinelibrary.wiley.com/doi/10.1111/jtsa.12576](https://onlinelibrary.wiley.com/doi/10.1111/jtsa.12576)
+
+We generalize well-known results on structural identifiability of vector autoregressive models (VAR) to the case where the innovation covariance matrix has reduced rank. 
+Structural singular VAR models appear, for example, as solutions of rational expectation models where the number of shocks is usually smaller than the number of endogenous variables, and as an essential building block in dynamic factor models. 
+We show that order conditions for identifiability are misleading in the singular case and provide a rank condition for identifiability of the noise parameters. 
+Since the Yule-Walker equations may have multiple solutions, we analyze the effect of restrictions on the system parameters on over- and underidentification in detail and provide easily verifiable conditions.
 
 
-
-
-Published
-
-Analysis of Indeterminate Equilibria in Linear Rational Expectations Models
-    Audioslides: http://audioslides.elsevier.com//ViewerSmall.aspx?source=1&doi=10.1016/j.econlet.2017.09.021
-
-Economics Letters, Volume 161, December 2017, Pages 47-51
+**Analysis of Indeterminate Equilibria in Linear Rational Expectations Models**
+   
+* single-authored    
+* Audioslides: [http://audioslides.elsevier.com//ViewerSmall.aspx?source=1&doi=10.1016/j.econlet.2017.09.021](http://audioslides.elsevier.com//ViewerSmall.aspx?source=1&doi=10.1016/j.econlet.2017.09.021)
+* **Economics Letters**, Volume 161, December 2017, Pages 47-51
 
 This note characterises the dimension of indeterminacy of linear rational expectations (LRE) models and derives their full set of solutions. It extends the analysis of indeterminate equilibria in  Lubik, Schorfheide (2003) where some equilibria are incorrectly classified as indeterminate. Moreover, an example of an LRE model with a unique solution is given whose solution set would be characterised as indeterminate according to the same reference.
 
 
-Multivariate AR Systems and Mixed Frequency Data: G- Identifiability and Estimation 
-with Brian D.O. Anderson, Manfred Deistler, Elisabeth Felsenstein, Lukas Kölbl, Mohsen Zamani
+**Multivariate AR Systems and Mixed Frequency Data: G- Identifiability and Estimation** 
 
-Econometric Theory 2016, Volume 32, Issue Number 4, Pages 793-826
+* joint with Brian D.O. Anderson, Manfred Deistler, Elisabeth Felsenstein, Lukas Kölbl, Mohsen Zamani
+* **Econometric Theory** 2016, Volume 32, Issue Number 4, Pages 793-826
 
 This paper is concerned with the problem of identifiability of the parameters of a high frequency multivariate autoregressive model from mixed frequency time series data. We demonstrate identifiability for generic parameter values using the population second moments corresponding to the observations. In addition we display a constructive algorithm for the parameter values and establish the continuity of the mapping attaching the high frequency parameters to these population second moments. These structural results are obtained using two alternative tools viz. extended Yule Walker equations and blocking of the the output process. The cases of stock and flow variables, as well as of general linear transformations of high frequency data are treated. Finally, we shortly discuss how our constructive identifiability results can be used for parameter estimation based on the sample second moments.
 
 
-Identifiability of regular and singular multivariate autoregressive models from mixed frequency data 
-with Anderson, B. D. O., Deistler, M., Felsenstein, E., Eichler, M., Chen, W., Zamani, M. & Zadrozny, P.
+**Identifiability of regular and singular multivariate autoregressive models from mixed frequency data**
 
-IEEE 51st Annual Conference on Decision and Control (CDC) 2012, page 184-189
+* joint with Anderson, B. D. O., Deistler, M., Felsenstein, E., Eichler, M., Chen, W., Zamani, M. & Zadrozny, P.
+* **IEEE** 51st Annual Conference on Decision and Control (CDC) 2012, page 184-189
 
 This paper is concerned with identifiability of an underlying high frequency multivariate AR system from mixed frequency observations. Such problems arise for instance in economics when some variables are observed monthly whereas others are observed quarterly. If we have identifiability, the system and noise parameters and thus all second moments of the output process can be estimated consistently from mixed frequency data. Then linear least squares methods for forecasting and interpolating nonobserved output variables can be applied. Two ways for guaranteeing generic identifiability are discussed.
 
 
-AR Systems and Processes: The Singular Case 
-with Manfred Deistler and Alexander Filler
+**AR Systems and Processes: The Singular Case**
 
-Communications in Information and Systems 2011, Volume 11, Number 3, Pages 225-236
+* joint with Manfred Deistler and Alexander Filler
+* **Communications in Information and Systems** 2011, Volume 11, Number 3, Pages 225-236
 
 We deal with singular multivariate AR systems and the corresponding AR processes. An AR system is called singular if the variance of the white noise innovation is singular. AR processes are the stationary solutions of AR systems. In the singular case AR processes consist of a linearly regular and a linearly singular component. The corresponding Yule-Walker equations and in particular the possible non-uniqueness of their solutions are discussed. A particular canonical form is presented. Singular AR systems naturally arise as models for latent variables in dynamic factor analysis.
 
 
-PhD Thesis: Essays on Identifiability and Estimation in Multivariate Time Series Models
-This thesis is concerned with identifiability analysis and estimation of multivariate linear dynamic models. A particular emphasis is given firstly to models with strictly fewer inputs than outputs, secondly to the case of mixed frequency data, and lastly to linear multivariate rational expectations model. Chapter 2 deals with spectral factorization, i.e. obtaining a transfer function from the spectral density, of singular rational spectral densities. Chapter 3 deals with the identifiability problem for singular AR models, shows that the identifiability problem in this case is very similar to the one for usual multivariate ARMA models, and introduces a new canonical form. Chapter 4 deals with identifiability from mixed frequency data in the sense that we want to obtain the underlying high frequency AR model from (mixed frequency) population second moments which can be observed in principle. The case of singular and as well as the case of non-singular innovation covariance matrix is treated. The main result is that “typically” identifiability can be ensured using second moments. Chapter 5 is concerned with stochastic singularity in multivariate linear rational expectations models. It provides important preliminary work for treating identifiability analysis and estimation of structural singular ARMA models. The main result is the derivation of the number of free parameters in the reduced form of a rational expectations model in the stochastically singular case. It holds under very general restrictions on the parameter space such that state-of-the-art macroeconomic models can be analyzed. Chapter 6 extends the analysis of indeterminate equilibria of rational expectations models in (Lubik and Schorfheide, Journal of Economic Dynamics and Control, 2003). It is shown that there are certain parameter constellations that lead to models which are deemed to have an indeterminate solution according to the analysis given by Lubik and Schorfheide even though the solution is actually unique.
+**PhD Thesis: Essays on Identifiability and Estimation in Multivariate Time Series Models**
+
+This thesis is concerned with identifiability analysis and estimation of multivariate linear dynamic models. 
+A particular emphasis is given firstly to models with strictly fewer inputs than outputs, secondly to the case of mixed frequency data, and lastly to linear multivariate rational expectations model. 
+Chapter 2 deals with spectral factorization, i.e. obtaining a transfer function from the spectral density, of singular rational spectral densities. 
+Chapter 3 deals with the identifiability problem for singular AR models, shows that the identifiability problem in this case is very similar to the one for usual multivariate ARMA models, and introduces a new canonical form. 
+Chapter 4 deals with identifiability from mixed frequency data in the sense that we want to obtain the underlying high frequency AR model from (mixed frequency) population second moments which can be observed in principle. 
+The case of singular and as well as the case of non-singular innovation covariance matrix is treated. 
+The main result is that “typically” identifiability can be ensured using second moments. 
+Chapter 5 is concerned with stochastic singularity in multivariate linear rational expectations models. 
+It provides important preliminary work for treating identifiability analysis and estimation of structural singular ARMA models. 
+The main result is the derivation of the number of free parameters in the reduced form of a rational expectations model in the stochastically singular case. 
+It holds under very general restrictions on the parameter space such that state-of-the-art macroeconomic models can be analyzed. 
+Chapter 6 extends the analysis of indeterminate equilibria of rational expectations models in (Lubik and Schorfheide, Journal of Economic Dynamics and Control, 2003). 
+It is shown that there are certain parameter constellations that lead to models which are deemed to have an indeterminate solution according to the analysis given by Lubik and Schorfheide even though the solution is actually unique.
+
+
+# Working Papers
+
+
+**All-Pass Functions for Mirroring Pairs of Complex-Conjugated Roots of Rational Matrix Functions**
+
+* joint with Wolfgang Scherrer
+* [https://arxiv.org/pdf/2010.01598](https://arxiv.org/pdf/2010.01598)
+
+We construct rational all-pass matrix functions with real-valued coefficients for mirroring pairs of complex-conjugated determinantal roots of a rational matrix. 
+This problem appears, for example, when proving the spectral factorization theorem, or, more recently, in the literature on possibly non- invertible or possibly non-causal vector autoregressive moving average (VARMA) models. 
+In general, it is not obvious whether the all-pass matrix function (and as a consequence the all-pass transformed rational matrix with initally real-valued coefficients) which mirrors complex-conjugated roots at the unit circle has real-valued coefficients. 
+Naive constructions result in all-pass functions with complex-valued coefficients which implies that the real-valued parameter space (usually relevant for estimation) is left.
+
+
+**Comment on Gouriéroux, Monfort, Renne (2019): Identification and Estimation in Non-Fundamental Structural VARMA Models**
+
+* [https://arxiv.org/pdf/2010.02711](https://arxiv.org/pdf/2010.02711)
+
+This comment points out a serious flaw in the article *"Gouriéroux, Monfort, Renne (2019): Identification and Estimation in Non-Fundamental Structural VARMA Models"*, henceforth abbreviated as GMR, with regard to mirroring complex-valued roots with Blaschke polynomial matrices.
+Moreover, the (non-) feasibility of the proposed method (if the handling of Blaschke transformation were not prohibitive) forcross-sectional dimensions greater than two and vector moving average (VMA) polynomial matrices of degree $q$ greater than one is discussed.
+
+
+**The Right Parametrization for Opening the Blackbox: A Right Matrix Fraction Description of the Common Factors in GDFMs**
+
+* joint with Juho Koistinen
+
+We consider estimation of stochastic processes with rational spectral densities that are rank deficient. Interest in these processes has emerged in relation to generalized dynamic factor models (GDFMs), which contain fewer economic shocks than endogenous variables. 
+Our contribution is to propose a right matrix fraction description (MFD) realization of an (Nxq)-dimensional transfer function, where $N>>q$,  i.e. $k( z ) e_t  =d( z ) c(z)^{-1}  e_t$ with $d(z)$ and $c(z)$ of dimensions $(N \times q)$ and $(q \times q)$ which has two advantages over the usual two-step estimation procedure 
+(where firstly a static transformation reduces to a static factor process with full rank covariance matrix and secondly a VAR model with fewer inputs than outputs is estimated): 
+Its one-step nature makes it potentially more efficient and the same dynamics might be modeled with fewer parameters. 
+The right MFD realization allows for more generality compared to the singular VAR since the covariance of the N -dimensional common factors $\chi_t$ at lag $0$ can be of rank $r<N$. 
+Moreover, the rank of the spectral density of the common factors is $q<r$. 
+We analyse the properties of the column Kronecker canonical form (which can be written as a minimal state space realization), and highlight its usefulness for modeling the common factor of GDFMs. 
+Using the state space representation of the right MFD, estimation can be performed efficiently via Kalman filtering.
+
+**Multivariate All-Pass Time Series Models: Modelling and Estimation Strategies**
+
+In this paper, we analyze multivariate rational all-pass filters. 
+The poles of the determinant of all-pass matrix functions are the conjugated reciprocals of its roots. 
+Multivariate all-pass filters are important for analyzing non-causal and non-invertible time series models as recently proposed in, e.g., Lanne and Saikkonen (2013). 
+For i.i.d white noise input, all-pass models generate uncorrelated (white noise) processes; however, these processes are not independent in the non-Gaussian case. We propose a new estimation strategy for non-causal VAR systems.
+
+
+**Stochastic Singularity and Indeterminacy in Linear Multivariate Rational Expectations Models**
+
+This paper analyses the number of free parameters and solutions of the structural difference equation (SDE) obtained from a linear multivariate rational expectations model. 
+It is shown that the number of free parameters depends on the structure of the zeros at zero of a certain matrix polynomial of the structural difference equation and the number of white noise shocks driving the rational expectations model. 
+Moreover, the implications of requiring that some components of the endogenous variables be predetermined are analyzed. This makes a comparison of results on existence and uniqueness of solutions in the literature possible. 
+Last, general restrictions on the parameters of the SDE are allowed. 
+This analysis is the basis for identifiability analysis of determinate and indeterminate solutions of rational expectations (RE) models without assuming minimality.
+
+
+
+
+
 

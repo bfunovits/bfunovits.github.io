@@ -2,9 +2,8 @@
 title: "Academic Research Artcles"
 ---
 
-I do not intend to submit research to journals.
-The review process is slow, referees have often ulterior motives, and the journals are often paywalled.
-Nevertheless, I have learned a lot from experienced expert referees who have provided insightful comments.
-
-For this reason, I publish articles and research on this page and am very happy about feedback or comments.
+As of October 2023, I do not intend to submit research to journals.
+<!-- The review process is slow, referees have often ulterior motives, and the journals are often paywalled. -->
+<!-- Nevertheless, I have learned a lot from experienced expert referees who have provided insightful comments. -->
+I publish articles and research on this page and am very happy about feedback or comments.
 

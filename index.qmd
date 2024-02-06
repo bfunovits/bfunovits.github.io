@@ -1,22 +1,41 @@
 ---
-title: "About"
-fig-align: right
-fig-width: 50
+title: "Bernd Funovits"
+about:
+    template: trestles
+    links:
+        - icon: linkedin
+          text: LinkedIn
+          url: https://www.linkedin.com/in/bernd-funovits-phd-cfa-a8215016/
+        - icon: github
+          text: Github
+          url: https://github.com/bfunovits
+        - text: arXiv
+          url: https://arxiv.org/a/funovits_b_1.html
+        - text: "{{< fa envelope >}} Email"
+          url: mailto:bernd.funovits@gmail.com
+        - text: "{{< ai orcid >}} ORCID 0000-0002-8247-6840"
+          url: https://orcid.org/0000-0002-8247-6840
+        - text: "{{< ai google-scholar >}} Google Scholar"
+          url: https://scholar.google.com/citations?user=VnfMU_IAAAAJ
+image: images/dark_pic.jpg
+comments: false
 ---
 
-::: {#fig-bf}
-#| fig-align: right
-#| fig-responsive: true
-#| fig-width: 20%
+<!-- - icon: instagram -->
+<!--   text: Instagram -->
+<!--   url: https://www.instagram.com/bbbernigram/ -->
 
-![](images/dark_pic.jpg){align="center"}
-:::
 
-Welcome to my website!
-You will find information on my professional and [academic background](academia.html).
-I have a strong background in quantitative risk analysis, statistics, and programming, see my [CV](cv.html) and my [github profile](https://github.com/bfunovits).
+**Welcome to my website!**
 
-Recently, I have made two long-term programming projects on multivariate time series analysis public on github:
+Here, you will find information on my professional and [academic background](academia.html).
+
+I have a strong background in quantitative risk analysis, mathematics, econometrics/statistics, and programming, see my [CV](cv.html) and my [github profile](https://github.com/bfunovits).
+
+Recently (Jan 2024), my single-authored article *Identifiability and Estimation of Possibly Non-Invertible SVARMA
+Models: The Normalised Canonical WHF Parametrisation* has been **accepted for publication** in the **Journal of Econometrics**. 
+
+At the end of 2023, I have made two long-term **programming projects** on multivariate time series analysis public on github:
 
 * [Rational Matrices](https://github.com/bfunovits/rationalmatrices) including [documentation and examples](https://bfunovits.github.io/rationalmatrices/)
     * Collects classes, methods and tools for creating and manipulating rational matrices, i.e. matrices whose entries are rational functions. 

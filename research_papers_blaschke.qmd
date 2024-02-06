@@ -2,6 +2,6 @@
 title: "Mirroring Roots with Blaschke Matrices"
 ---
 
-# Copy from LaTeX
+# To be included...
 
 
