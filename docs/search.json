@@ -1,0 +1,366 @@
+[
+  {
+    "objectID": "todo.html",
+    "href": "todo.html",
+    "title": "TODO",
+    "section": "",
+    "text": "TODO\n\ninclude pictures\ninclude github in navbar\nplay with themes\nlink to arxiv on research papers page\n\nimport latex code here"
+  },
+  {
+    "objectID": "research_papers_blaschke.html",
+    "href": "research_papers_blaschke.html",
+    "title": "Mirroring Roots with Blaschke Matrices",
+    "section": "",
+    "text": "To be included…"
+  },
+  {
+    "objectID": "research_abstracts.html",
+    "href": "research_abstracts.html",
+    "title": "Abstracts",
+    "section": "",
+    "text": "Published\nIdentifiability and Estimation of Possibly Non-Invertible SVARMA Models: A New Parametrisation\n\nsingle-authored\nJournal of Econometrics 2024, conditionally accepted for publication\n\nThis article focuses on the parametrisation, identifiability, and (quasi-) maximum likelihood (QML) estimation of possibly non-invertible structural vector autoregressive moving average (SVARMA) models. SVAR models are routinely adopted due to their well-known implementation strategy. However, for various economic and statistical reasons, multivariate SVARMA settings are often more suitable. These settings introduce complexity in the analysis, primarily due to the presence of the moving average (MA) polynomial. We propose a novel representation of the MA polynomial matrix using the Wiener-Hopf factorization (WHF). A significant advantage of the WHF is its ability to handle possible non-invertibility and thus models with informational asymmetry between economic agents and outside observers. Since solutions of Dynamic Stochastic General Equilibrium (DSGE) models often involve this informational asymmetry, SVARMA models in WHF parametrisation can be considered data-driven alternatives to DSGE models and used for their evaluation. Furthermore, we provide low-level conditions for the asymptotic normality of the (Q)ML estimator and analytic expressions for the score and information matrix. As application, we estimate the Blanchard and Quah model and compare our results with previous literature. Importantly, we have implemented this novel method in a well-documented R-package, making it readily accessible for researchers and practitioners.\nIdentifiability of Structural Singular Vector Autoregressive Models\n\njoint with Alexander Braumann\nJournal of Time Series Analysis 2021, Volume 42, Issue 4, Pages 431-441\nhttps://onlinelibrary.wiley.com/doi/10.1111/jtsa.12576\n\nWe generalize well-known results on structural identifiability of vector autoregressive models (VAR) to the case where the innovation covariance matrix has reduced rank. Structural singular VAR models appear, for example, as solutions of rational expectation models where the number of shocks is usually smaller than the number of endogenous variables, and as an essential building block in dynamic factor models. We show that order conditions for identifiability are misleading in the singular case and provide a rank condition for identifiability of the noise parameters. Since the Yule-Walker equations may have multiple solutions, we analyze the effect of restrictions on the system parameters on over- and underidentification in detail and provide easily verifiable conditions.\nAnalysis of Indeterminate Equilibria in Linear Rational Expectations Models\n\nsingle-authored\n\nAudioslides: http://audioslides.elsevier.com//ViewerSmall.aspx?source=1&doi=10.1016/j.econlet.2017.09.021\nEconomics Letters, Volume 161, December 2017, Pages 47-51\n\nThis note characterises the dimension of indeterminacy of linear rational expectations (LRE) models and derives their full set of solutions. It extends the analysis of indeterminate equilibria in Lubik, Schorfheide (2003) where some equilibria are incorrectly classified as indeterminate. Moreover, an example of an LRE model with a unique solution is given whose solution set would be characterised as indeterminate according to the same reference.\nMultivariate AR Systems and Mixed Frequency Data: G- Identifiability and Estimation\n\njoint with Brian D.O. Anderson, Manfred Deistler, Elisabeth Felsenstein, Lukas Kölbl, Mohsen Zamani\nEconometric Theory 2016, Volume 32, Issue Number 4, Pages 793-826\n\nThis paper is concerned with the problem of identifiability of the parameters of a high frequency multivariate autoregressive model from mixed frequency time series data. We demonstrate identifiability for generic parameter values using the population second moments corresponding to the observations. In addition we display a constructive algorithm for the parameter values and establish the continuity of the mapping attaching the high frequency parameters to these population second moments. These structural results are obtained using two alternative tools viz. extended Yule Walker equations and blocking of the the output process. The cases of stock and flow variables, as well as of general linear transformations of high frequency data are treated. Finally, we shortly discuss how our constructive identifiability results can be used for parameter estimation based on the sample second moments.\nIdentifiability of regular and singular multivariate autoregressive models from mixed frequency data\n\njoint with Anderson, B. D. O., Deistler, M., Felsenstein, E., Eichler, M., Chen, W., Zamani, M. & Zadrozny, P.\nIEEE 51st Annual Conference on Decision and Control (CDC) 2012, page 184-189\n\nThis paper is concerned with identifiability of an underlying high frequency multivariate AR system from mixed frequency observations. Such problems arise for instance in economics when some variables are observed monthly whereas others are observed quarterly. If we have identifiability, the system and noise parameters and thus all second moments of the output process can be estimated consistently from mixed frequency data. Then linear least squares methods for forecasting and interpolating nonobserved output variables can be applied. Two ways for guaranteeing generic identifiability are discussed.\nAR Systems and Processes: The Singular Case\n\njoint with Manfred Deistler and Alexander Filler\nCommunications in Information and Systems 2011, Volume 11, Number 3, Pages 225-236\n\nWe deal with singular multivariate AR systems and the corresponding AR processes. An AR system is called singular if the variance of the white noise innovation is singular. AR processes are the stationary solutions of AR systems. In the singular case AR processes consist of a linearly regular and a linearly singular component. The corresponding Yule-Walker equations and in particular the possible non-uniqueness of their solutions are discussed. A particular canonical form is presented. Singular AR systems naturally arise as models for latent variables in dynamic factor analysis.\nPhD Thesis: Essays on Identifiability and Estimation in Multivariate Time Series Models\nThis thesis is concerned with identifiability analysis and estimation of multivariate linear dynamic models. A particular emphasis is given firstly to models with strictly fewer inputs than outputs, secondly to the case of mixed frequency data, and lastly to linear multivariate rational expectations model. Chapter 2 deals with spectral factorization, i.e. obtaining a transfer function from the spectral density, of singular rational spectral densities. Chapter 3 deals with the identifiability problem for singular AR models, shows that the identifiability problem in this case is very similar to the one for usual multivariate ARMA models, and introduces a new canonical form. Chapter 4 deals with identifiability from mixed frequency data in the sense that we want to obtain the underlying high frequency AR model from (mixed frequency) population second moments which can be observed in principle. The case of singular and as well as the case of non-singular innovation covariance matrix is treated. The main result is that “typically” identifiability can be ensured using second moments. Chapter 5 is concerned with stochastic singularity in multivariate linear rational expectations models. It provides important preliminary work for treating identifiability analysis and estimation of structural singular ARMA models. The main result is the derivation of the number of free parameters in the reduced form of a rational expectations model in the stochastically singular case. It holds under very general restrictions on the parameter space such that state-of-the-art macroeconomic models can be analyzed. Chapter 6 extends the analysis of indeterminate equilibria of rational expectations models in (Lubik and Schorfheide, Journal of Economic Dynamics and Control, 2003). It is shown that there are certain parameter constellations that lead to models which are deemed to have an indeterminate solution according to the analysis given by Lubik and Schorfheide even though the solution is actually unique.\n\n\nWorking Papers\nAll-Pass Functions for Mirroring Pairs of Complex-Conjugated Roots of Rational Matrix Functions\n\njoint with Wolfgang Scherrer\nhttps://arxiv.org/pdf/2010.01598\n\nWe construct rational all-pass matrix functions with real-valued coefficients for mirroring pairs of complex-conjugated determinantal roots of a rational matrix. This problem appears, for example, when proving the spectral factorization theorem, or, more recently, in the literature on possibly non- invertible or possibly non-causal vector autoregressive moving average (VARMA) models. In general, it is not obvious whether the all-pass matrix function (and as a consequence the all-pass transformed rational matrix with initally real-valued coefficients) which mirrors complex-conjugated roots at the unit circle has real-valued coefficients. Naive constructions result in all-pass functions with complex-valued coefficients which implies that the real-valued parameter space (usually relevant for estimation) is left.\nComment on Gouriéroux, Monfort, Renne (2019): Identification and Estimation in Non-Fundamental Structural VARMA Models\n\nhttps://arxiv.org/pdf/2010.02711\n\nThis comment points out a serious flaw in the article “Gouriéroux, Monfort, Renne (2019): Identification and Estimation in Non-Fundamental Structural VARMA Models”, henceforth abbreviated as GMR, with regard to mirroring complex-valued roots with Blaschke polynomial matrices. Moreover, the (non-) feasibility of the proposed method (if the handling of Blaschke transformation were not prohibitive) forcross-sectional dimensions greater than two and vector moving average (VMA) polynomial matrices of degree \\(q\\) greater than one is discussed.\nThe Right Parametrization for Opening the Blackbox: A Right Matrix Fraction Description of the Common Factors in GDFMs\n\njoint with Juho Koistinen\n\nWe consider estimation of stochastic processes with rational spectral densities that are rank deficient. Interest in these processes has emerged in relation to generalized dynamic factor models (GDFMs), which contain fewer economic shocks than endogenous variables. Our contribution is to propose a right matrix fraction description (MFD) realization of an (Nxq)-dimensional transfer function, where \\(N&gt;&gt;q\\), i.e. \\(k( z ) e_t =d( z ) c(z)^{-1} e_t\\) with \\(d(z)\\) and \\(c(z)\\) of dimensions \\((N \\times q)\\) and \\((q \\times q)\\) which has two advantages over the usual two-step estimation procedure (where firstly a static transformation reduces to a static factor process with full rank covariance matrix and secondly a VAR model with fewer inputs than outputs is estimated): Its one-step nature makes it potentially more efficient and the same dynamics might be modeled with fewer parameters. The right MFD realization allows for more generality compared to the singular VAR since the covariance of the N -dimensional common factors \\(\\chi_t\\) at lag \\(0\\) can be of rank \\(r&lt;N\\). Moreover, the rank of the spectral density of the common factors is \\(q&lt;r\\). We analyse the properties of the column Kronecker canonical form (which can be written as a minimal state space realization), and highlight its usefulness for modeling the common factor of GDFMs. Using the state space representation of the right MFD, estimation can be performed efficiently via Kalman filtering.\nMultivariate All-Pass Time Series Models: Modelling and Estimation Strategies\nIn this paper, we analyze multivariate rational all-pass filters. The poles of the determinant of all-pass matrix functions are the conjugated reciprocals of its roots. Multivariate all-pass filters are important for analyzing non-causal and non-invertible time series models as recently proposed in, e.g., Lanne and Saikkonen (2013). For i.i.d white noise input, all-pass models generate uncorrelated (white noise) processes; however, these processes are not independent in the non-Gaussian case. We propose a new estimation strategy for non-causal VAR systems.\nStochastic Singularity and Indeterminacy in Linear Multivariate Rational Expectations Models\nThis paper analyses the number of free parameters and solutions of the structural difference equation (SDE) obtained from a linear multivariate rational expectations model. It is shown that the number of free parameters depends on the structure of the zeros at zero of a certain matrix polynomial of the structural difference equation and the number of white noise shocks driving the rational expectations model. Moreover, the implications of requiring that some components of the endogenous variables be predetermined are analyzed. This makes a comparison of results on existence and uniqueness of solutions in the literature possible. Last, general restrictions on the parameters of the SDE are allowed. This analysis is the basis for identifiability analysis of determinate and indeterminate solutions of rational expectations (RE) models without assuming minimality."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bernd Funovits",
+    "section": "",
+    "text": "Welcome to my website!\nHere, you will find information on my professional and academic background.\nI have a strong background in quantitative risk analysis, mathematics, econometrics/statistics, and programming, see my CV and my github profile.\nRecently (Jan 2024), my single-authored article Identifiability and Estimation of Possibly Non-Invertible SVARMA Models: The Normalised Canonical WHF Parametrisation has been accepted for publication in the Journal of Econometrics.\nAt the end of 2023, I have made two long-term programming projects on multivariate time series analysis public on github:\n\nRational Matrices including documentation and examples\n\nCollects classes, methods and tools for creating and manipulating rational matrices, i.e. matrices whose entries are rational functions.\n\nRational Linear Dynamic Models including documentation and examples\n\nProvides models for stationary processes with a rational spectral density and methods for their estimation.\n\n\n\nZanders\nI am working for Zanders GmbH, Financial Institutions, Zürich. Zanders is a leading international consultancy firm focused on treasury management, risk management and corporate finance. We are a trusted partner for many large multinationals and financial institutions (G- and D-SIBs), operating globally from offices in, e.g., the Netherlands, United Kingdom, Germany, Switzerland, and the United States.\nRecent projects and areas of expertise in the Swiss team comprise\n\nALM and IRRBB\nModelling non-maturing deposits\nCredit Risk\nCapital modelling\n\nFeel free to contact me if you are looking for new challenges in the area of quantitative risk analysis (especially if you have taken one of my lectures in Helsinki or Dortmund). We are always looking for new colleagues, in particular in the Frankfurt office."
+  },
+  {
+    "objectID": "cv_latex.html",
+    "href": "cv_latex.html",
+    "title": "CV LaTeX",
+    "section": "",
+    "text": "Apr 2021 - Jun 2023\n\nLead for remediation model changes in the Partial Internal Model (PIM) for market risk; including responsibility for reports and presentation to Financial Market Supervision in Austria (FMA) and the Austrian National Bank (OeNB).\n\nMajor model changes in (Credit-Metrics like) migration model as well as spread curve model\nSeveral minor model changes related to portfolio composition\n\nSuccessfully resolving remediation issues in PIM made Full Internal Model (FIM) application possible\n\n\nLead in development of UNIQA’s R package for market risk modeling; including risk dasboard creation in shiny and automatisation of monthly, quarterly, sensitivity and several other risk calculations and reports (comparison of Solvency Capital Requirements (SCR) and sensitivities)\nResponsible for Level 2 and Level 3 documentation, as well as internal technical documentation, on PIM\nQuarterly reporting and presentation to the Internal Model Committee (IMCO)\n\n\n\n\nJan 16 - Dec 19\n\nForecasting of aggregate electricity load demand of 10,000 industry customers for a large German utilities company using dynamic factor models\nSoftware development for outlier detection to flag suspicious leasing contracts for a German automotive manufacturer\n\n\n\n\nJun 15 - Dec 16\n\nAccount balance prediction for customers of Erste Group\n\n\n\n\nOkt 09 - Apr 10\n\nSupport for the Long-Short Equity investment team"
+  },
+  {
+    "objectID": "cv_latex.html#market-risk-modeling-expert-uniqa-insurance-group-vienna-austria",
+    "href": "cv_latex.html#market-risk-modeling-expert-uniqa-insurance-group-vienna-austria",
+    "title": "CV LaTeX",
+    "section": "",
+    "text": "Apr 2021 - Jun 2023\n\nLead for remediation model changes in the Partial Internal Model (PIM) for market risk; including responsibility for reports and presentation to Financial Market Supervision in Austria (FMA) and the Austrian National Bank (OeNB).\n\nMajor model changes in (Credit-Metrics like) migration model as well as spread curve model\nSeveral minor model changes related to portfolio composition\n\nSuccessfully resolving remediation issues in PIM made Full Internal Model (FIM) application possible\n\n\nLead in development of UNIQA’s R package for market risk modeling; including risk dasboard creation in shiny and automatisation of monthly, quarterly, sensitivity and several other risk calculations and reports (comparison of Solvency Capital Requirements (SCR) and sensitivities)\nResponsible for Level 2 and Level 3 documentation, as well as internal technical documentation, on PIM\nQuarterly reporting and presentation to the Internal Model Committee (IMCO)"
+  },
+  {
+    "objectID": "cv_latex.html#ceo-advisory-services-in-the-fields-of-statistics-and-applied-mathematics-quantico-kg-vienna-austria",
+    "href": "cv_latex.html#ceo-advisory-services-in-the-fields-of-statistics-and-applied-mathematics-quantico-kg-vienna-austria",
+    "title": "CV LaTeX",
+    "section": "",
+    "text": "Jan 16 - Dec 19\n\nForecasting of aggregate electricity load demand of 10,000 industry customers for a large German utilities company using dynamic factor models\nSoftware development for outlier detection to flag suspicious leasing contracts for a German automotive manufacturer"
+  },
+  {
+    "objectID": "cv_latex.html#statistical-consulting-and-software-development-mantigma-gmbh-vienna-austria",
+    "href": "cv_latex.html#statistical-consulting-and-software-development-mantigma-gmbh-vienna-austria",
+    "title": "CV LaTeX",
+    "section": "",
+    "text": "Jun 15 - Dec 16\n\nAccount balance prediction for customers of Erste Group"
+  },
+  {
+    "objectID": "cv_latex.html#analyst-global-arbitrage-trading-division-proprietary-trading-credit-suisse-london-uk",
+    "href": "cv_latex.html#analyst-global-arbitrage-trading-division-proprietary-trading-credit-suisse-london-uk",
+    "title": "CV LaTeX",
+    "section": "",
+    "text": "Okt 09 - Apr 10\n\nSupport for the Long-Short Equity investment team"
+  },
+  {
+    "objectID": "cv_latex.html#principal-investigator-university-of-helsinki-faculty-of-social-sciences-discipline-of-economics-helsinki-finland",
+    "href": "cv_latex.html#principal-investigator-university-of-helsinki-faculty-of-social-sciences-discipline-of-economics-helsinki-finland",
+    "title": "CV LaTeX",
+    "section": "Principal Investigator, University of Helsinki, Faculty of Social Sciences, Discipline of Economics, Helsinki, Finland",
+    "text": "Principal Investigator, University of Helsinki, Faculty of Social Sciences, Discipline of Economics, Helsinki, Finland\nJan 18 - Dec 20\n\nFunded by Research Foundation of University of Helsinki \nDevelopment of macroeconomic and financial time series models with informational asymmetries between outside observers and economic agents (possibly non-invertible SVARMA models). Important model class in macroeconometrics (economic policy analysis, evaluation of Dynamic Stochastic General Equilibrium models) and financial econometrics. Development, implementation, and documentation of estimation algorithms in R package.\nSupervision of PhD thesis."
+  },
+  {
+    "objectID": "cv_latex.html#w3-professorship-chair-for-econometrics-and-statistics-tu-dortmund-faculty-of-statistics-dortmund-germany",
+    "href": "cv_latex.html#w3-professorship-chair-for-econometrics-and-statistics-tu-dortmund-faculty-of-statistics-dortmund-germany",
+    "title": "CV LaTeX",
+    "section": "W3 Professorship (Chair for Econometrics and Statistics), TU Dortmund, Faculty of Statistics, Dortmund, Germany",
+    "text": "W3 Professorship (Chair for Econometrics and Statistics), TU Dortmund, Faculty of Statistics, Dortmund, Germany\nApr 18 - Mar 19\n\nTeaching BA (introductory statistics lecture for 1,200 students), MSc, and PhD level classes in statistics and time series analysis."
+  },
+  {
+    "objectID": "cv_latex.html#principal-investigator-tu-vienna-institute-of-mathematical-methods-in-economics-vienna-austria",
+    "href": "cv_latex.html#principal-investigator-tu-vienna-institute-of-mathematical-methods-in-economics-vienna-austria",
+    "title": "CV LaTeX",
+    "section": "Principal Investigator, TU Vienna, Institute of Mathematical Methods in Economics, Vienna, Austria",
+    "text": "Principal Investigator, TU Vienna, Institute of Mathematical Methods in Economics, Vienna, Austria\nMar 18 - Dec 19\n\nFunded by the OeNB Anniversary Fund of the Austrian National Bank \nContributions to theoretical time series econometrics by obtaining identifiability results, and deriving and analyzing consistent and asymptotically normal estimators for structural singular VAR models (i.e. structural factor models). Development, implementation, and documentation of estimation algorithms in R package.\nSupervision of PhD thesis and MSc thesis (forecasting with factor models)."
+  },
+  {
+    "objectID": "cv_latex.html#postdoctoral-researcher-university-of-helsinki-faculty-of-social-sciences-discipline-of-economics-helsinki-finland",
+    "href": "cv_latex.html#postdoctoral-researcher-university-of-helsinki-faculty-of-social-sciences-discipline-of-economics-helsinki-finland",
+    "title": "CV LaTeX",
+    "section": "Postdoctoral researcher, University of Helsinki, Faculty of Social Sciences, Discipline of Economics, Helsinki, Finland",
+    "text": "Postdoctoral researcher, University of Helsinki, Faculty of Social Sciences, Discipline of Economics, Helsinki, Finland\nMay 16 - Dec 17\n\nDevelopment of macroeconomic and financial time series models with informational asymmetries between outside observers and economic agents (possibly non-invertible SVARMA models). Important model class in macroeconometrics (economic policy analysis, evaluation of Dynamic Stochastic General Equilibrium models) and financial econometrics. Development, implementation, and documentation of estimation algorithms in R package."
+  },
+  {
+    "objectID": "cv_latex.html#postdoctoral-researcher-tu-vienna-institute-of-statistics-and-mathematical-methods-in-economics-vienna-austria",
+    "href": "cv_latex.html#postdoctoral-researcher-tu-vienna-institute-of-statistics-and-mathematical-methods-in-economics-vienna-austria",
+    "title": "CV LaTeX",
+    "section": "Postdoctoral researcher, TU Vienna, Institute of Statistics and Mathematical Methods in Economics, Vienna, Austria",
+    "text": "Postdoctoral researcher, TU Vienna, Institute of Statistics and Mathematical Methods in Economics, Vienna, Austria\nSep 15 - Jan 16\n\nDevelopment of macroeconomic and financial time series models with informational asymmetries between outside observers and economic agents (possibly non-invertible SVARMA models). Important model class in macroeconometrics (economic policy analysis, evaluation of Dynamic Stochastic General Equilibrium models) and financial econometrics. Development, implementation, and documentation of estimation algorithms in R package."
+  },
+  {
+    "objectID": "cv_latex.html#ph.d.-in-econometrics-university-of-vienna-vienna-graduate-school-of-economics-vienna-austria",
+    "href": "cv_latex.html#ph.d.-in-econometrics-university-of-vienna-vienna-graduate-school-of-economics-vienna-austria",
+    "title": "CV LaTeX",
+    "section": "Ph.D. in Econometrics, , University of Vienna, Vienna Graduate School of Economics, Vienna, Austria",
+    "text": "Ph.D. in Econometrics, , University of Vienna, Vienna Graduate School of Economics, Vienna, Austria\nOct 11 - Apr 15\n\nAdvisors: and \nTopics: Multivariate time series analysis (spectral representations, rational expectations models, identifiability issues, factor models, mixed frequency data, Kalman filtering, state space models) and its applications to economic theory\nResearch visits: University of Pennsylvania (Department of Economics, 6 months, invited by Frank Schorfheide) and Australian National University (Research School of Information Sciences and Engineering, twice for one month, invited by B.D.O Anderson, author of )"
+  },
+  {
+    "objectID": "cv_latex.html#visitng-researcher-student-university-of-pennsylvania-department-of-economics-philadelphia-usa",
+    "href": "cv_latex.html#visitng-researcher-student-university-of-pennsylvania-department-of-economics-philadelphia-usa",
+    "title": "CV LaTeX",
+    "section": "Visitng Researcher student, University of Pennsylvania, Department of Economics, Philadelphia, USA",
+    "text": "Visitng Researcher student, University of Pennsylvania, Department of Economics, Philadelphia, USA"
+  },
+  {
+    "objectID": "cv_latex.html#visiting-researcher-research-school-of-information-sciences-and-engineering-australian-national-university-canberra-australia",
+    "href": "cv_latex.html#visiting-researcher-research-school-of-information-sciences-and-engineering-australian-national-university-canberra-australia",
+    "title": "CV LaTeX",
+    "section": "Visiting Researcher, Research School of Information Sciences and Engineering, Australian National University, Canberra, Australia",
+    "text": "Visiting Researcher, Research School of Information Sciences and Engineering, Australian National University, Canberra, Australia"
+  },
+  {
+    "objectID": "cv_latex.html#ingénieur-centralien-ecole-centrale-paris-paris-france",
+    "href": "cv_latex.html#ingénieur-centralien-ecole-centrale-paris-paris-france",
+    "title": "CV LaTeX",
+    "section": "Ingénieur centralien, , Ecole Centrale Paris, Paris, France",
+    "text": "Ingénieur centralien, , Ecole Centrale Paris, Paris, France\nSep 07 - Jun 09\n\nSpecialisation in financial mathematics.\nFinal project: Analysis of financial time series with factor-GARCH models under supervision of"
+  },
+  {
+    "objectID": "cv_latex.html#diplom-ingenieur-vienna-university-of-technology-vienna-austria",
+    "href": "cv_latex.html#diplom-ingenieur-vienna-university-of-technology-vienna-austria",
+    "title": "CV LaTeX",
+    "section": "Diplom-Ingenieur, , Vienna University of Technology, Vienna, Austria",
+    "text": "Diplom-Ingenieur, , Vienna University of Technology, Vienna, Austria\n\nTechnical Mathematics with a concentration in econometrics, ."
+  },
+  {
+    "objectID": "cv_latex.html#professional-certificates",
+    "href": "cv_latex.html#professional-certificates",
+    "title": "CV LaTeX",
+    "section": "Professional Certificates",
+    "text": "Professional Certificates\nsince Jun 18\n\nChartered Financial Analyst (CFA) , passed Level III in 2015,"
+  },
+  {
+    "objectID": "cv_latex.html#languages",
+    "href": "cv_latex.html#languages",
+    "title": "CV LaTeX",
+    "section": "Languages",
+    "text": "Languages\n\nGerman: mother tongue\nEnglish: fluent (TOEFL-iBT score: 115/120 (Oct 2010))\nFrench: fluent (C1-certificate of the Alliance Franaise)\nSpanish: basic knowledge\nFinnish: very very basic knowledge"
+  },
+  {
+    "objectID": "cv_latex.html#programming-languages-and-it",
+    "href": "cv_latex.html#programming-languages-and-it",
+    "title": "CV LaTeX",
+    "section": "Programming Languages and IT",
+    "text": "Programming Languages and IT\n\nR, Python, Julia, MATLAB, C++, Git(-hub), HPC/SLURM: advanced knowledge; developed several R packages (e.g. : ); fluent in tidyverse, data.table, shiny, Rcpp, as well as other commonly used packages; most projects are version controlled by git\nSQL, PostgreSQL, Spark; Excel, PowerBI, MS Office: advanced knowledge"
+  },
+  {
+    "objectID": "cv_latex.html#peer-reviewed-articles",
+    "href": "cv_latex.html#peer-reviewed-articles",
+    "title": "CV LaTeX",
+    "section": "Peer-reviewed articles",
+    "text": "Peer-reviewed articles\n\nB. Funovits, A. Braumann: Identifiability of Singular Structural VAR Systems, Journal of Time Series Analysis, Volume 42, Number 4, Pages 431-441, Nov 2020\nB. Funovits: The full set of solutions of linear rational expectations models, Economics Letters, Volume 161, Dec 2017, Pages 47-51\nB.D.O. Anderson, M. Deistler, E. Felsenstein, B. Funovits, L. Koelbl, M. Zamani: Multivariate AR Systems and Mixed Frequency Data: g-Identifiability and Estimation, Econometric Theory, Aug 2016\n\nSince Brian Anderson published an article with a co-author of Paul Erdös, my Erdös number is 3.\n\nB.D.O. Anderson , W. Chen, M. Deistler, M. Eichler, E. Felsenstein, B. Funovits, M. Zamani: Identifiability of regular and singular multivariate autoregressive models from mixed frequency data, Proceedings of 51st IEEE Conference on Decision and Control 2012\nM. Deistler, A. Filler, B. Funovits: AR Systems and AR Processes: The Singular Case., Communications in Information and Systems, Vol 11, No. 3, pp. 225-236, 2011"
+  },
+  {
+    "objectID": "cv_latex.html#working-papers",
+    "href": "cv_latex.html#working-papers",
+    "title": "CV LaTeX",
+    "section": "Working Papers",
+    "text": "Working Papers\n\nB. Funovits: Identifiability and Estimation of Possibly Non-Fundamental SVARMA Models: The Normalised Canonical Wiener-Hopf Parametrisation” (fifth revision at Journal of Econometrics as of 23 Dec 2023)\nW. Scherrer, B. Funovits: All-Pass Functions for Mirroring Pairs of Complex-Conjugated Roots of Rational Matrix Functions\nB. Funovits: Comment on GMR et al."
+  },
+  {
+    "objectID": "cv_latex.html#aufsichtsrat-next-generation",
+    "href": "cv_latex.html#aufsichtsrat-next-generation",
+    "title": "CV LaTeX",
+    "section": "Aufsichtsrat Next Generation",
+    "text": "Aufsichtsrat Next Generation\nTwo-semester course held by Kunz Wallentin Rechtsanwälte GmbH aiming to prepare young professionals for serving on a supervisory board. Special attention is given to the opportunities and challenges faced by a young supervisory board member, taking into account the current developments in this field. The relevant content is not only covered theoretically but also through interactive role-playing, short presentations, and exchange with renowned speakers."
+  },
+  {
+    "objectID": "cv_latex.html#forum-alpbach",
+    "href": "cv_latex.html#forum-alpbach",
+    "title": "CV LaTeX",
+    "section": "Forum Alpbach",
+    "text": "Forum Alpbach\nSeveral participations in the European Forum Alpbach between 2011 and 2016 (www.alpbach.org), member of board of ``Club Alpbach Burgenland’’ (2015-2016)"
+  },
+  {
+    "objectID": "cv_latex.html#academic-forum-for-foreign-affairs",
+    "href": "cv_latex.html#academic-forum-for-foreign-affairs",
+    "title": "CV LaTeX",
+    "section": "Academic Forum for Foreign Affairs",
+    "text": "Academic Forum for Foreign Affairs\nParticipation and co-organization of the Global Advancement Program (GAP) between 2011 and 2013 (www.afa.at)"
+  },
+  {
+    "objectID": "academia.html",
+    "href": "academia.html",
+    "title": "Academic Background and Research",
+    "section": "",
+    "text": "Academic Background\nMy academic background is in mathematics, statistics, and economics. I obtained degrees from the Vienna University of Technology (Dipl.-Ing. in 2009, with distinction, thesis supervised by Manfred Deistler) and “ingénieur généraliste” at Ecole Centrale Paris (Promotion 2010, thesis supervised by Frédéric Abergel).\nAfter an internship in the Global Arbitrage Trading department at Credit Suisse in London, I started my PhD in mathematics at the Vienna University of Technology and changed after one year to the economics department at the University of Vienna, where I passed my PhD under supervision of Manfred Deistler and Benedikt M. Pötscher (May 2015, with distinction). During my PhD, I could further my international network through extended research visits at the Australian National University in Canberra (November 2012 and November 2013, invited by Brian D. O. Anderson) and University of Pennsylvania (January until May 2014, invited by Frank Schorfheide).\n\n\n\n\n\n\n\nResearch Interests\nI focus on data-driven modeling to characterize and identify structural economic shocks without relying on (possibly implausible) restrictions derived from economic theory, as is the case in Dynamic Stochastic General Equilibrium (DSGE) models.\nEarly projects (without innovation) were concerned with cointegration analysis (project at the end of BSc. equivalent at TU Wien), factor GARCH models with applications to financial time series (project at Ecole Centrale Paris), and dynamic principal component analysis, i.e. the frequency domain equaivalent of (static) principal component analysis, (project at the end of MSc. equivalent at TU Wien).\nMy PhD thesis comprises contributions on singular vector autoregressive (VAR) models, identifiability from mixed frequency data, as well as solution sets and identifiability of rational expectations (RE) models. Solutions of singular VAR models are stationary multivariate processes with innovation covariance matrix of reduced rank. They are the essential building block of generalized dynamic factor models. Given mixed frequency data, it is interesting to ask the question whether it is possible to identify an underlying model which generates data at the highest frequency. In linear RE models, I worked on characterizing the full solution set and on identifiability by constructing an analytical mapping from internal and external characteristics.\nDuring my postdoc at the University of Helsinki, I have worked on possibly non-invertible VARMA models and generalized dynamic factor models. Possibly non-invertible VARMA models take informational asymmetry between economic agents and outside observers (e.g. econometricians) into account. They are a data-driven alternative to DSGE models which are based on economic theories and often rely on strong assumptions.\nThe outcomes are several publications in top-tier journals, including the Journal of Econometrics, Econometric Theory, and the Journal of Time Series Analysis, see Publications.\n\n\n\n\n\n\n\n\n\nIf you are working with one of my R packages or build on my work in any other way, I would be happy to hear from you. Especially, I am happy to provide feedback or help out with feature requests regarding non-invertible VARMA models."
+  },
+  {
+    "objectID": "projects_misc.html",
+    "href": "projects_misc.html",
+    "title": "Miscalleneous Projects",
+    "section": "",
+    "text": "On this page I collect miscallenous projects."
+  },
+  {
+    "objectID": "cv_index.html",
+    "href": "cv_index.html",
+    "title": "CV",
+    "section": "",
+    "text": "Here, you can find my CV in different lengths and formats."
+  },
+  {
+    "objectID": "cv_long.html",
+    "href": "cv_long.html",
+    "title": "CV Long Form",
+    "section": "",
+    "text": "Manager in Risk Advisory Group (RAG) in Zurich, Switzerland\nSince September 2023\n\nProjects\n\n\n\n\nMarket Risk Modeling Expert in Vienna, Austria\nApril 2021 - June 2023\n\nResponsibilites:\n\nLead for remediation model changes in the Partial Internal Model (PIM) for market risk; including responsibility for reports and presentation to Financial Market Supervision in Austria (FMA) and the Austrian National Bank (OeNB).\n\nMajor model changes in (Credit-Metrics like) migration model and spread curve model\nSeveral minor model changes related to portfolio composition\n\nSuccessfully resolving remediation issues in PIM made Full Internal Model (FIM) application possible\n\n\nLead in development of UNIQA’s R package for market risk modeling\n\nincluding risk dasboard creation in shiny and automatisation of monthly, quarterly, sensitivity and several other risk calculations and reports (comparison of Solvency Capital Requirements (SCR) and sensitivities)\n\nResponsible for Level 2 and Level 3 documentation, as well as internal technical documentation, on PIM\nQuarterly reporting and presentation to the Internal Model Committee (IMCO)\n\n\n\n\n\nAnalyst, Global Arbitrage Trading division (proprietary trading) in London, UK\nOctober 2009 - April 2010\n\nResponsibilities:\n\nQuantitative support for the Long-Short Equity investment team"
+  },
+  {
+    "objectID": "cv_long.html#zanders",
+    "href": "cv_long.html#zanders",
+    "title": "CV Long Form",
+    "section": "",
+    "text": "Manager in Risk Advisory Group (RAG) in Zurich, Switzerland\nSince September 2023\n\nProjects"
+  },
+  {
+    "objectID": "cv_long.html#uniqa-insurance-group",
+    "href": "cv_long.html#uniqa-insurance-group",
+    "title": "CV Long Form",
+    "section": "",
+    "text": "Market Risk Modeling Expert in Vienna, Austria\nApril 2021 - June 2023\n\nResponsibilites:\n\nLead for remediation model changes in the Partial Internal Model (PIM) for market risk; including responsibility for reports and presentation to Financial Market Supervision in Austria (FMA) and the Austrian National Bank (OeNB).\n\nMajor model changes in (Credit-Metrics like) migration model and spread curve model\nSeveral minor model changes related to portfolio composition\n\nSuccessfully resolving remediation issues in PIM made Full Internal Model (FIM) application possible\n\n\nLead in development of UNIQA’s R package for market risk modeling\n\nincluding risk dasboard creation in shiny and automatisation of monthly, quarterly, sensitivity and several other risk calculations and reports (comparison of Solvency Capital Requirements (SCR) and sensitivities)\n\nResponsible for Level 2 and Level 3 documentation, as well as internal technical documentation, on PIM\nQuarterly reporting and presentation to the Internal Model Committee (IMCO)"
+  },
+  {
+    "objectID": "cv_long.html#credit-suisse",
+    "href": "cv_long.html#credit-suisse",
+    "title": "CV Long Form",
+    "section": "",
+    "text": "Analyst, Global Arbitrage Trading division (proprietary trading) in London, UK\nOctober 2009 - April 2010\n\nResponsibilities:\n\nQuantitative support for the Long-Short Equity investment team"
+  },
+  {
+    "objectID": "cv_long.html#quantico-kg",
+    "href": "cv_long.html#quantico-kg",
+    "title": "CV Long Form",
+    "section": "QuantiCo KG",
+    "text": "QuantiCo KG\n\nCEO, Advisory services in the fields of statistics and applied mathematics in Vienna, Austria\nJanuary 16 - December 19\n\nProjects:\n\nForecasting of aggregate electricity load demand of 10,000 industry customers for a large German utilities company using dynamic factor models\nSoftware development for outlier detection to flag suspicious leasing contracts for a German automotive manufacturer"
+  },
+  {
+    "objectID": "cv_long.html#mantigma-gmbh",
+    "href": "cv_long.html#mantigma-gmbh",
+    "title": "CV Long Form",
+    "section": "Mantigma GmbH",
+    "text": "Mantigma GmbH\n\nStatistical consulting and software development in Vienna, Austria\nJune 14 - December 16\n\nProjects:\n\nAccount balance prediction of retail customers for a large Austrian bank"
+  },
+  {
+    "objectID": "cv_long.html#university-of-helsinki",
+    "href": "cv_long.html#university-of-helsinki",
+    "title": "CV Long Form",
+    "section": "University of Helsinki",
+    "text": "University of Helsinki\n\nPrincipal Investigator\n\nFaculty of Social Sciences, Discipline of Economics in Helsinki, Finland\nJanuary 2018 - December 2020\nFunded by Research Foundation of University of Helsinki: 150,000 EUR + own position\nSupervision of PhD thesis\n\nProject: Macroeconomic and financial time series models with informational asymmetries between outside observers and economic agents\n\nDevelopment of SVARMA models driven by non-Gaussian and independent shocks that use only data to identify the economic shocks driving the model and that allow for the informational structure of fiscal policy models.\nDevelopment of stochastically singular models. Their applications are twofold: On the one hand these models are important for capturing a large number of variables (connected to the “big data” paradigm) and on the other hand they serve as benchmark models for stochastically singular DSGE models.\nImproving on existing solution methods for DSGE models as well as to improve on methods for assessing their fit to observed data.\nImplementation: All new contributions to methodology will be implemented in R, Python, or Julia and made available as downloadable packages.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPostdoctoral researcher\n\nUniversity of Helsinki, Faculty of Social Sciences, Discipline of Economics, Helsinki, Finland\nMay 16 - December 17"
+  },
+  {
+    "objectID": "cv_long.html#tu-dortmund",
+    "href": "cv_long.html#tu-dortmund",
+    "title": "CV Long Form",
+    "section": "TU Dortmund",
+    "text": "TU Dortmund\n\nW3 Professorship (Chair for Econometrics and Statistics), TU Dortmund, Faculty of Statistics, Dortmund, Germany\nApril 18 - March 19\nTeaching BA (introductory statistics lecture for 1,200 students), MSc, and PhD level classes in statistics and time series analysis."
+  },
+  {
+    "objectID": "cv_long.html#tu-vienna",
+    "href": "cv_long.html#tu-vienna",
+    "title": "CV Long Form",
+    "section": "TU Vienna",
+    "text": "TU Vienna\n\nPrincipal Investigator\n\nInstitute of Mathematical Methods in Economics, Vienna, Austria\nMarch 18 - December 19\nFunded by “Anniversary Fund of the Austrian National Bank (OeNB)”: 125,000 EUR\nSupervision of PhD thesis and MSc thesis (forecasting with factor models).\n\nResearch Objectives:\nWe intend to contribute to the area of theoretical time series econometrics by obtaining identifiability results, and deriving and analyzing consistent and asymptotically normal estimators for structural singular VAR models (i.e. structural factor models). We provide software for applied researchers by developing, implementing, and documenting our estimation algorithms in the open-source statistical software R and making them openly available. The methods to be developed are expected to not only have an impact on macroeconometrics (and thus in economic policy analysis) and financial econometrics, but they are also promising for short-term forecasting.\n\n\nPostdoctoral researcher\n\nInstitute of Statistics and Mathematical Methods in Economics, Vienna, Austria\nSeptember 15 - January 16"
+  },
+  {
+    "objectID": "cv_long.html#professional-certificates",
+    "href": "cv_long.html#professional-certificates",
+    "title": "CV Long Form",
+    "section": "Professional Certificates",
+    "text": "Professional Certificates\n\nAufsichtsrat Next Generation\nTwo-semester course held by Kunz Wallentin Rechtsanwälte GmbH aiming to prepare young professionals for serving on supervisory boards. Special attention is given to the opportunities and challenges faced by a young supervisory board member, taking into account the current developments in this field. The relevant content is not only covered theoretically but also through interactive role-playing, short presentations, and exchange with renowned speakers.\n\n\nChartered Financial Analyst (CFA)\n\nCharter holder since since Jun 18\npassed Level III in 2015"
+  },
+  {
+    "objectID": "cv_long.html#phd-in-econometrics",
+    "href": "cv_long.html#phd-in-econometrics",
+    "title": "CV Long Form",
+    "section": "PhD in Econometrics",
+    "text": "PhD in Econometrics\n\npassed with distinction at University of Vienna, Vienna Graduate School of Economics, Vienna, Austria\nOctober 11 - April 15\nTopics: Multivariate time series analysis (spectral representations, rational expectations models, identifiability issues, factor models, mixed frequency data, Kalman filtering, state space models) and its applications to economic theory\nAdvisors: Manfred Deistler and Benedikt Pötscher\nResearch visits:\n\nUniversity of Pennsylvania (Department of Economics, 6 months, invited by Frank Schorfheide)\nAustralian National University (Research School of Information Sciences and Engineering, twice for one month, invited by B.D.O Anderson, author of “Optimal Filtering”)"
+  },
+  {
+    "objectID": "cv_long.html#ingénieur-centralien",
+    "href": "cv_long.html#ingénieur-centralien",
+    "title": "CV Long Form",
+    "section": "Ingénieur centralien",
+    "text": "Ingénieur centralien\n\n3 year degree, Ecole Centrale Paris (in Châtenay-Malabry, France)\nPromotion 2010 (on campus from September 2007 - June 2009)\nSpecialisation in financial mathematics\n\nFinal project: Analysis of financial time series with factor-GARCH models under supervision of Frédéric Abergel"
+  },
+  {
+    "objectID": "cv_long.html#diplom-ingenieur-vienna-university-of-technology",
+    "href": "cv_long.html#diplom-ingenieur-vienna-university-of-technology",
+    "title": "CV Long Form",
+    "section": "Diplom-Ingenieur, Vienna University of Technology",
+    "text": "Diplom-Ingenieur, Vienna University of Technology\n\n5 year degree, Vienna, Austria\nTechnical Mathematics with a concentration in econometrics passed with distinction"
+  },
+  {
+    "objectID": "cv_long.html#languages",
+    "href": "cv_long.html#languages",
+    "title": "CV Long Form",
+    "section": "Languages",
+    "text": "Languages\n\nGerman: mother tongue\nEnglish: fluent (TOEFL-iBT score: 115/120 (Oct 2010))\nFrench: fluent (C1-certificate of the Alliance Franaise)\nSpanish: basic knowledge\nFinnish: very very basic knowledge"
+  },
+  {
+    "objectID": "cv_long.html#programming",
+    "href": "cv_long.html#programming",
+    "title": "CV Long Form",
+    "section": "Programming",
+    "text": "Programming\n\nR, Python, Julia, MATLAB, C++, Git(-hub), HPC/SLURM: advanced knowledge; developed several R packages (e.g. Rational Linear Dynamic Models); fluent in tidyverse, data.table, shiny, Rcpp, as well as other commonly used packages; most projects are version controlled by git\nSQL, PostgreSQL, Spark; advanced knowledge\nExcel, PowerBI, MS Office: advanced knowledge"
+  },
+  {
+    "objectID": "cv_long.html#forum-alpbach",
+    "href": "cv_long.html#forum-alpbach",
+    "title": "CV Long Form",
+    "section": "Forum Alpbach",
+    "text": "Forum Alpbach\nSeveral participations in the European Forum Alpbach between 2011 and 2016 (www.alpbach.org), member of board of ``Club Alpbach Burgenland’’ (2015-2016)"
+  },
+  {
+    "objectID": "cv_long.html#academic-forum-for-foreign-affairs",
+    "href": "cv_long.html#academic-forum-for-foreign-affairs",
+    "title": "CV Long Form",
+    "section": "Academic Forum for Foreign Affairs",
+    "text": "Academic Forum for Foreign Affairs\nParticipation and co-organization of the Global Advancement Program (GAP) between 2011 and 2013 (www.afa.at)"
+  },
+  {
+    "objectID": "projects_professional.html",
+    "href": "projects_professional.html",
+    "title": "Professional Projects",
+    "section": "",
+    "text": "Modeling behavioural maturity of non-maturing-deposits for a Swiss multinational private bank. We used vintage outflow analysis to determine a replicating portfolio.\n\n\n\nReview and validation of IRRBB framework of a Swiss D-SIB. The validation comprised\n\ninterest rate risk measurement\nnon-maturing deposit modeling,\nreplicating portfolio calibration\nrisk steering and limit framework"
+  },
+  {
+    "objectID": "projects_professional.html#behavioural-modeling-of-non-maturing-deposits-nmds",
+    "href": "projects_professional.html#behavioural-modeling-of-non-maturing-deposits-nmds",
+    "title": "Professional Projects",
+    "section": "",
+    "text": "Modeling behavioural maturity of non-maturing-deposits for a Swiss multinational private bank. We used vintage outflow analysis to determine a replicating portfolio."
+  },
+  {
+    "objectID": "projects_professional.html#validation-of-the-irrbb-framework-of-a-swiss-d-sib",
+    "href": "projects_professional.html#validation-of-the-irrbb-framework-of-a-swiss-d-sib",
+    "title": "Professional Projects",
+    "section": "",
+    "text": "Review and validation of IRRBB framework of a Swiss D-SIB. The validation comprised\n\ninterest rate risk measurement\nnon-maturing deposit modeling,\nreplicating portfolio calibration\nrisk steering and limit framework"
+  },
+  {
+    "objectID": "research_papers.html",
+    "href": "research_papers.html",
+    "title": "Academic Research Artcles",
+    "section": "",
+    "text": "As of October 2023, I do not intend to submit research to journals.   I publish articles and research on this page and am very happy about feedback or comments."
+  },
+  {
+    "objectID": "research_papers_gmr.html",
+    "href": "research_papers_gmr.html",
+    "title": "Comment on GMR",
+    "section": "",
+    "text": "To be included…"
+  }
+]
